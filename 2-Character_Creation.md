@@ -27,7 +27,7 @@ and the Brain Stats:
 |Presence|Ranger
 |Presence|Bard
 |Constitution|Fighter
-|Strength|Berzerker
+|Strength|Berserker
 |Piety|Paladin
 |Agility|Thief
 |Intelligence|Wizard
@@ -39,10 +39,10 @@ and the Brain Stats:
 
 The next step is to pick a Race from the Races available for your chosen profession (See *Table 2‑2*). After doing so, you enter the Racial Stat Bonuses for the individual stats (See *Table 2‑3*).
 
-|Human|Half-Elf|Elf|Dwarf|Halfling|Reptillian|Feline
+|Human|Half-Elf|Elf|Dwarf|Halfling|Reptilian|Feline
 |:--|:--|:--|:--|:--|:--|:--
-|Bard|Bard|Bard|Berzerker|Bard|Berzerker|Bard
-|Berzerker|Conjurer|Conjurer|Cleric|Cleric|Cleric|Conjurer
+|Bard|Bard|Bard|Berserker|Bard|Berserker|Bard
+|Berserker|Conjurer|Conjurer|Cleric|Cleric|Cleric|Conjurer
 |Cleric|Fighter|Ranger|Conjurer|Conjurer|Conjurer|Ranger
 |Conjurer|Ranger|Thief|Fighter|Ranger|Fighter|Thief
 |Fighter|Thief|Wizard|Paladin|Thief|Paladin|Wizard
@@ -53,7 +53,7 @@ The next step is to pick a Race from the Races available for your chosen profess
 
 ###### Table 2-2
 
-|Statistic|Human|Half-Elf|Elf|Dwarf|Halfling|Reptillian|Feline
+|Statistic|Human|Half-Elf|Elf|Dwarf|Halfling|Reptilian|Feline
 |:--|:--|:--|:--|:--|:--|:--|:--
 |Strength|2|1|0|2|-1|2|-1
 |Agility|1|2|3|-1|2|-1|3
@@ -116,9 +116,9 @@ Skills are developed by spending skill points which are earned each level based 
 ### Weapon Skills
 Developing weapon skills is performed by allocating skill points to skill levels. Using *Table 2‑6*, a Fighter can spend one skill point for one skill level for their Primary Melee or Primary Missile weapons. A fighter can then spend three skill points for one skill level for their Secondary Melee or Secondary Missile weapons. Our fighter’s Tertiary weapons require spending seven skill points for one skill level.
 
-|Primary Stat|Skill|Fighter|Berzerker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
+|Primary Stat|Skill|Fighter|Berserker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
 |:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
-|Strenth|Primary Melee|1/3/7|1/3/7|1/3/7|2/5|2/5|2/5|7|5|2/5
+|Strength|Primary Melee|1/3/7|1/3/7|1/3/7|2/5|2/5|2/5|7|5|2/5
 |Agility|Primary Missile|1/3/7|2/5|2/5|1/3/7|2/5|3|5|10|4
 |Strength|Secondary Melee|3/7|2/5|3/7|4|6|4|15|15|6
 |Agility|Secondary Missile|3/7|4|5|2/5|6|6|10|20|12
@@ -130,7 +130,7 @@ Developing weapon skills is performed by allocating skill points to skill levels
 ### Armor Skills
 Armor is a bit simpler. The player can allocate skill points to specific armor types same as is done for weapons, but the skill points costs are fixed per armor type. Our fighter can thus allocate the number of skill points denoted in the chart for one skill level.
 
-|Primary Stat|Skill|Fighter|Berzerker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
+|Primary Stat|Skill|Fighter|Berserker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
 |:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Agility|None or Light Clothing|1/3/5|1/3/5|1/3/5|1/3/5|1/3/5|1/3/5|3|2|1/3/5
 |Agility|Robes|1/3/5|1/3/5|1/3/5|1/3/5|1/3/5|1/3/5|3|2|1/3/5
@@ -144,7 +144,7 @@ Armor is a bit simpler. The player can allocate skill points to specific armor t
 ### Physical Skills
 Physical Skills encompass actions that be taken by a character that primarily depend upon the Body stats of the character.
 
-|Primary Stat|Skill|Fighter|Berzerker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
+|Primary Stat|Skill|Fighter|Berserker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
 |:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Agility|Sprint|3|2|3|2|2|3|8|6|5
 |Constitution|Run|3|3|3|2|2|2|7|5|4
@@ -154,7 +154,7 @@ Physical Skills encompass actions that be taken by a character that primarily de
 
 ### Mental Abilities
 
-|Skill Points Per Level|Skill|Fighter|Berzerker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
+|Skill Points Per Level|Skill|Fighter|Berserker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
 |:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Presence|Traps|8|20|10|2|1/3|3|5|3|4
 |Intelligence|Locks|8|20|10|4|1/3|3|5|3|4
@@ -166,7 +166,7 @@ Physical Skills encompass actions that be taken by a character that primarily de
 
 ### Mixed Abilities
 
-|Primary Stat|Skill|Fighter|Berzerker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
+|Primary Stat|Skill|Fighter|Berserker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
 |:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Agility/Presence|Stealing|7|10||4|1/3|3|7|6|
 |Agility/Intelligence|Tracking|10|15|15|1/3|4|3|10|6|10
@@ -176,9 +176,9 @@ Physical Skills encompass actions that be taken by a character that primarily de
 
 ### Arcane Abilities
 
-|Primary Stat|Skill|Fighter|Berzerker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
+|Primary Stat|Skill|Fighter|Berserker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
 |:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
-|Intelligence|Enchantmant|40/-/-|-|-|40/-/-|40/-/-|7/12/20|1/3/7|7/-/-|-
+|Intelligence|Enchantment|40/-/-|-|-|40/-/-|40/-/-|7/12/20|1/3/7|7/-/-|-
 |Presence|Conjuring|30/-/-|-|-|30/-/-|40/-/-|7/12/20|7/-/-|1/3/7|-
 |Piety|Prayer|25/-/-|-|7/12/-|25/-/-|-|-|-|-|1/3/3
 |Piety|Leadership|-|-|4/7/12|-|-|-|-|-|-
@@ -187,7 +187,7 @@ Physical Skills encompass actions that be taken by a character that primarily de
 
 ### Other Abilities
 
-|Primary Stat|Skill|Fighter|Berzerker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
+|Primary Stat|Skill|Fighter|Berserker|Paladin|Ranger|Rogue|Bard|Wizard|Conjuror|Cleric
 |:--|:--|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:
 |Presence|Perception|5|15|5|1|1|5|1|5|5
 |Constitution|Body Development|2|1|4|5|7|6|25|15|4

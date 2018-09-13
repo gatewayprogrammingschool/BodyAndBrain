@@ -4,5 +4,10 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.insertSpaces": false,
+		"editor.wordWrap": "off",
+		"editor.quickSuggestions": false,
+		"pandocFormat.command": "pandoc -s -f gfm -t html5 --css=css/style.css --lua-filter=./links-to-html.lua"	
+	}
 }
