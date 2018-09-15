@@ -1,7 +1,3 @@
-![BodyAndBrain](/assets/BodyAndBrain.png)
-
-**A Simple Role-Playing System**
-
 # 2 - Character Creation
 ## Stats
 
