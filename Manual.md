@@ -1,11 +1,15 @@
+![BodyAndBrain](assets/BodyAndBrain.png)
 
-
-**A Simple Role-Playing System**
+# Body And Brain - A Simple Role-Playing System
 
 !TOC
 
 !include(1-Overview.md)
 
-!include(2-Overview.md)
+!include(2-Character_Creation.md)
 
-###### (c) 2018 Gateway Programming School, Inc.
+!include(3-Races.md)
+
+!include(4-Professions.md)
+
+!include(footer.md)

@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 {
-	"cSpell.language": "en"
-=======
-{
+	"cSpell.language": "en",
 	"spellright.language": "en",
 	"spellright.documentTypes": [
 		"markdown",
 		"latex"
 	]
->>>>>>> 97f7672cf808485e8778cf8292aaad396b3a2315
 }

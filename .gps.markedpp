@@ -1,0 +1,20 @@
+{
+    "rootSourceFiles": [
+        "./Manual.md"
+    ],
+    "outputDirectory": "./markdown_output",
+    "options": {
+        "gfm": true,
+        "include": true,
+        "toc": true,
+        "numberedheadings": true,
+        "ref": true,
+        "breaks": true,
+        "tags": true,
+        "level": 3,
+        "minlevel": 2,
+        "autonumber": true,
+        "autoid": true,
+        "githubidv": false    
+    }
+}

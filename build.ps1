@@ -239,4 +239,5 @@ $cakeArguments += $ScriptArgs
 # Start Cake
 Write-Host "Running build script..."
 &$CAKE_EXE $cakeArguments
+if ($LASTEXITCODE -eq 0) { [System.Diagnostics.Process]::Start("markdown_output\Manual.html"); }
 exit $LASTEXITCODE
