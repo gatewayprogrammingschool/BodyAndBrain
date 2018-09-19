@@ -1,4 +1,4 @@
-## 3 - Professions
+## Professions
 
 ### Fighter
 
@@ -16,7 +16,7 @@ TODO: Populate
 
 TODO: Populate
 
-### Rogue
+### Thief
 
 TODO: Populate
 
