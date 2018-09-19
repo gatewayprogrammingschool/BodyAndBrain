@@ -12,4 +12,6 @@
 
 !include(4-Professions.md)
 
+!include(A-Appendices.md)
+
 !include(footer.md)
