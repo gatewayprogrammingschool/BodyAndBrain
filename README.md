@@ -6,7 +6,8 @@ Body and Brain (BaB) is a simple RPG system designed from the ground up to be su
 
 The Body and Brain Roleplaying System is completely open, meaning anyone can participate in the creation, maintenance and extension of the gaming platform.
 
-[Please read the Body and Brain Manual!](https://www.github.com/gatewayprogrammingschool/bodyandbrain/markdown_output/Manual.html)
+[Please read the Body and Brain Manual! (html)](https://manual.bodyandbrain.games/markdown_output/Manual.html)
 
 ###### (c) 2018 Gateway Programming School, Inc.
+
 ###### [Gateway Programing School, Inc. Open License](https://gatewayprogrammingschool.azurewebsites.net/license)
