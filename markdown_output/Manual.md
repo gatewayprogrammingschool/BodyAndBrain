@@ -503,7 +503,7 @@ Excelling at living among the trees, their [Agility](#agility) is legendary.  Do
 
 ### Reptilian
 
-Few creatures thrive in lakes, marshes and swamps, so Reptilians are one of two races, along with [Orcs](#feline) that evolved naturally.  As such they are most well adapted to their surroundings than any other race.  The are capable of very fast bursts of muscle twitch, lending them great [Strength](#strength), but being cold blooded, their [Agility](#agility) is less acute than other races.  Their [Constitution](#constitution) is above average, but they are susceptible to [Cold  Attacks](#Cold).  
+Few creatures thrive in lakes, marshes and swamps, so Reptilians are one of two races, along with [Felines](#feline) that evolved naturally.  As such they are most well adapted to their surroundings than any other race.  The are capable of very fast bursts of muscle twitch, lending them great [Strength](#strength), but being cold blooded, their [Agility](#agility) is less acute than other races.  Their [Constitution](#constitution) is above average, but they are susceptible to [Cold  Attacks](#Cold).  
 
 Reptilians, being naturally evolved, have a keen sense of their purpose in the world around them.  They are the only race to seek out the meaning of life itself, and that has led them to the highest [Piety](#piety) as their studious lives have given them insight into all of the Gods and they draw strength from each as necessary, making them excellent [Clerics](#Clerics) and [Paladins](#Paladins).
 
@@ -541,7 +541,7 @@ Reptilians, being naturally evolved, have a keen sense of their purpose in the w
 
 Intimidation and speed are the best friends of the Feline race.  Felines are also very vain due to their very high [Presence](#presence), often becoming actors or musicians (and being very good at both).  But on the battlefield they are a force to be reckoned with.  There are no better archers and when in hand to hand combat they can fight with their [Claws](#Claws) as an equivalent to a [Short Sword](#Short Sword).  Their fur is also natural armor, providing them the equivalent to [Soft Leather](#Soft-Leather).  Feline [Bards](#bard) are capable of wreaking havoc on the battlefield as they joyfully sing [Battle Songs](#Songs) to aid the fight while slashing their opponents.  Felines must develop their claws as their [Primary Melee](#Primary-Melee) weapon, but their bonus stat is [Agility](#agility) instead of [Strength](#strength) for that skill.
 
-The trait of the Felines that makes their armies so formidable is that when their Bards sing in unison, it double the area of effect of their spells and doubles any modifier roll for that song. 
+The trait of the Felines that makes their armies so formidable is that when their Bards sing in unison, it double the area of effect of their spells and doubles any modifier roll for that song.
 
 #### [Professions](#4-Professions) Available to Felines
 
