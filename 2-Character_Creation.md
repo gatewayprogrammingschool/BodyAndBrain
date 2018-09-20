@@ -1,5 +1,7 @@
 ## Character Creation
 
+_____
+
 ### Stats
 
 The first step in generating a Body and Brain character is to make fourteen [D10](#D10) rolls, throw out the low and the high rolls, and sum the remaining rolls, giving you the player stat pool. Next, add the player stat pool to 400 to get your total stat pool. You may only have one stat of 100, one stat of 99, and two stats between 95 to 98. The rest of the stat pool may be allocated freely for stats of 94 and lower. A character may not earn more than 14 skill points per level for either the Body or Brain groups.

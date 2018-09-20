@@ -1,5 +1,7 @@
 ## Professions
 
+_____
+
 ### Fighter
 
 TODO: Populate
