@@ -12,7 +12,7 @@ Elves are very intelligent, perceptive and wise.  They have a great presence abo
 
 Elves are slight of frame, but are not impeded in the arena of [Strength](#Strength), and are especially agile.  Their combination of [Agility](#Agility), [Presence](#Presence) and [Intelligence](#Intelligence) makes them excellent [Rangers](#Ranger) and [Thieves](#Thief).  [Piety](#Piety) is the Elf's Achilles Heel since they consider themselves akin to the Gods and are not very modest about it, which means that Elves cannot be [Paladins](#Paladin) or [Clerics](#Cleric).
 
-#### [Professions](#4-Professions) Available to Elves
+#### [Professions](#professions) Available to Elves
 
 * [Bard](#Bard)
 * [Conjuror](#Conjuror)
@@ -45,7 +45,7 @@ Elves are slight of frame, but are not impeded in the arena of [Strength](#Stren
 
 Humans arose a long time after the [Elves](#Elf).  As their numbers grew, they became jealous of the Elves' long lifespan, and that jealousy led to many wars between the two races.  Humans are more well rounded than Elves, displaying excellent [Strength](#Strength), [Constitution](#Constitution) and [Agility](#Agility), all of which serve them well as the jack-of-all trades in Body and Brain.  Humans can excel at all of the [professions](#3-Professions) equally well.
 
-#### [Professions](#4-Professions) Available to Humans
+#### [Professions](#professions) Available to Humans
 
 * [Bard](#Bard)
 * [Berserker](#Berserker)
@@ -84,7 +84,7 @@ In between the wars between the [Humans](#Humans) and [Elves](#Elves) there were
 
 Being more well rounded than either Humans or Elves, they found themselves being able to build more balanced armies and thus gaining advantages over both the Humans and the Elves.  Soon they were pushing both out of the lands between the Human and Elven home lands.  
 
-#### [Professions](#4-Professions) Available to Half-Elves
+#### [Professions](#professions) Available to Half-Elves
 
 * [Bard](#Bard)
 * [Conjuror](#Conjuror)
@@ -120,7 +120,7 @@ Many ages ago, a race was created by a God of the Mountains that would embrace t
 
 That race is the Dwarves.  They have very high [Strength](#Strength) and [Constitution](#Constitution), perfect for living underground.  Additionally, they also have a strong connection to their God, making them the fiercest Paladins because of their strong [Piety](#Piety).  Seeing hosts of Dwarven Paladins in full armor is very frightening, whether friend or foe.
 
-#### [Professions](#4-Professions) Available to Dwarves
+#### [Professions](#professions) Available to Dwarves
 
 * [Berserker](#Berserker)
 * [Cleric](#Cleric)
@@ -155,7 +155,7 @@ At the same time as creation of the [Dwarves](#Dwarves), another God who loves a
 
 Excelling at living among the trees, their [Agility](#Agility) is legendary.  Don't get into a dart throwing contest with a Halfling, you _will_ lose!  Living among the critters of the forest, and also being small, requires an acute sense of your surroundings which drives their excellent [Presence](#Presence) bonus.  Halflings are adept at building homes to their scale that cut into the hills surrounding the nearby forests.  These homes are well camouflaged from outside threats, often being overlooked unless the door is found.  This kind of architecture requires a keen mind, thus explaining their [Intelligence](#Intelligence) bonus.
 
-#### [Professions](#4-Professions) Available to Halflings
+#### [Professions](#professions) Available to Halflings
 
 * [Bard](#Bard)
 * [Cleric](#Cleric)
@@ -191,7 +191,7 @@ Few creatures thrive in lakes, marshes and swamps, so Reptilians are one of two 
 
 Reptilians, being naturally evolved, have a keen sense of their purpose in the world around them.  They are the only race to seek out the meaning of life itself, and that has led them to the highest [Piety](#Piety) as their studious lives have given them insight into all of the Gods and they draw strength from each as necessary, making them excellent [Clerics](#Clerics) and [Paladins](#Paladins).
 
-#### [Professions](#4-Professions) Available to Reptilians
+#### [Professions](#professions) Available to Reptilians
 
 * [Berserker](#Berserker)
 * [Cleric](#Cleric)
@@ -227,7 +227,7 @@ Intimidation and speed are the best friends of the Feline race.  Felines are als
 
 The trait of the Felines that makes their armies so formidable is that when their Bards sing in unison, it double the area of effect of their spells and doubles any modifier roll for that song.
 
-#### [Professions](#4-Professions) Available to Felines
+#### [Professions](#professions) Available to Felines
 
 * [Bard](#Bard)
 * [Conjuror](#Conjuror)
@@ -262,7 +262,7 @@ The God who made the [Dwarves](#Dwarves) has an evil little brother who was alwa
 
 During their mutation to Orcs, most of the Dwarves went mad, thus demolishing their ability to think rationally and thus greatly impeding their [Intelligence](#Intelligence), forcing them to rely on their under-developed [Presence](#Presence) to guide their actions, which are usually fool-hardy -- and they are very gullible.  But woe to the individual who makes one mad!  Where the [Felines](#Feline) rule the battlefield as [Bards](#Bard), an Orcish [Berserker](#Berserker) has no equal in hand-to-hand combat, wielding two axes with no penalties.  Additionally, when not wearing armor, Orcs take damage as if wearing [Rigid Leather](#Rigid-Leather) due to their high Constitution.  Finally, Orc Berserkers get a +5 to-hit bonus when when in hand-to-hand combat with a Dwarf.
 
-#### [Professions](#4-Professions) Available to Orcs
+#### [Professions](#professions) Available to Orcs
 
 * [Berserker](#Berserker)
 * [Fighter](#Fighter)

@@ -4,5 +4,12 @@
 	"spellright.documentTypes": [
 		"markdown",
 		"latex"
-	]
+	],
+	"editor.tabCompletion": true,
+	"editor.quickSuggestions": {
+		"other": false,
+		"comments": false,
+		"strings": false
+	  }
+	
 }
