@@ -621,39 +621,57 @@ Apprenticeships are a fundamental part of Body and Brain.  They are not only tem
 
 ### Fighter
 
+```todo
 TODO: Populate
+```
 
 ### Berserker
 
+```todo
 TODO: Populate
+```
 
 ### Paladin
 
+```todo
 TODO: Populate
+```
 
 ### Ranger
 
+```todo
 TODO: Populate
+```
 
 ### Thief
 
+```todo
 TODO: Populate
+```
 
 ### Bard
 
+```todo
 TODO: Populate
+```
 
 ### Wizard
 
+```todo
 TODO: Populate
+```
 
 ### Conjuror
 
+```todo
 TODO: Populate
+```
 
 ### Cleric
 
+```todo
 TODO: Populate
+```
 <!-- /include -->
 
 <!-- include (A-Appendices.md) -->

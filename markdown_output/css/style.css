@@ -45,7 +45,7 @@ a:focus { outline: 1px dotted; }
 /*a:visited {  }*/
 a:hover, a:focus { color: #d3a459; text-decoration: none; }
 a *, button * { cursor: pointer; }
-hr { display: block; height: 2px; color: #d7af72; }
+hr { display: block; height: 1px; color: #d7af72; }
 small { font-size: 90%; }
 input, select, button, textarea, option { font-family: Arial, "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; font-size: 100%; }
 button, label, select, option, input[type=submit] { cursor: pointer; }
