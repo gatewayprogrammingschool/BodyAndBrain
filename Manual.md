@@ -12,6 +12,8 @@
 
 !include(4-Professions.md)
 
+!include(./Apprenticeships/Apprenticeships.md)
+
 !include(A-Appendices.md)
 
 !include(footer.md)

@@ -1,3 +1,4 @@
+
 ## Professions
 
 _____
@@ -42,6 +43,8 @@ TODO: Populate
 ```
 
 ### Bard
+
+[Bard Apprenticeships](#Bard-Apprenticeships)
 
 ```todo
 TODO: Populate

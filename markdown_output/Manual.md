@@ -29,6 +29,8 @@
     * [Wizard](#wizard)
     * [Conjuror](#conjuror)
     * [Cleric](#cleric)
+  * [Apprenticeships](#apprenticeships)
+    * [Bard Apprenticeships](#bard-apprenticeships)
   * [Appendices](#appendices)
     * [Fan Support](#fan-support)
     * [Licensing](#licensing)
@@ -36,6 +38,7 @@
 <!-- toc! -->
 
 <!-- include (1-Overview.md) -->
+
 ## Overview
 
 _____
@@ -52,6 +55,7 @@ TODO: Let's add some more here!
 <!-- /include -->
 
 <!-- include (2-Character_Creation.md) -->
+
 ## Character Creation
 
 _____
@@ -316,6 +320,7 @@ Piety is the connection that a character has to his patron Gods.  [Clerics](#cle
 <!-- /include -->
 
 <!-- include (3-Races.md) -->
+
 ## Races
 
 _____
@@ -326,7 +331,7 @@ Body and Brain is built around normal fantasy races, but that does not mean we n
 
 Elves are the oldest race in Body and Brain, and are practically immortal.  No Elf has ever died of old age and very few have died of disease. Combat and poison, on the other hand, have claimed many Elves over the millennia.
 
-Elves are very intelligent, perceptive and wise.  They have a great presence about them and the more gregarious of them tend to be [Bards](#bard), with many specializing in [acting](#Acting) while others with a more adventurous side going into [fencing](#Fencing) or [politics](#Politics).
+Elves are very intelligent, perceptive and wise.  They have a great presence about them and the more gregarious of them tend to be [Bards](#bard), with many specializing in [acting](#Acting) while others with a more adventurous side going into [fencing](#fencing) or [politics](#Politics).
 
 Elves are slight of frame, but are not impeded in the arena of [Strength](#strength), and are especially agile.  Their combination of [Agility](#agility), [Presence](#presence) and [Intelligence](#intelligence) makes them excellent [Rangers](#ranger) and [Thieves](#thief).  [Piety](#piety) is the Elf's Achilles Heel since they consider themselves akin to the Gods and are not very modest about it, which means that Elves cannot be [Paladins](#paladin) or [Clerics](#cleric).
 
@@ -609,6 +614,7 @@ During their mutation to Orcs, most of the Dwarves went mad, thus demolishing th
 <!-- /include -->
 
 <!-- include (4-Professions.md) -->
+
 ## Professions
 
 _____
@@ -654,6 +660,8 @@ TODO: Populate
 
 ### Bard
 
+[Bard Apprenticeships](#bard-apprenticeships)
+
 ```todo
 TODO: Populate
 ```
@@ -677,7 +685,52 @@ TODO: Populate
 ```
 <!-- /include -->
 
+<!-- include (./Apprenticeships/Apprenticeships.md) -->
+
+## Apprenticeships
+
+_____
+
+```note
+Note:
+Introduction to Apprenticeships
+```
+
+
+### Bard Apprenticeships
+
+```note
+Note:
+We need some good text on being a Bard and how the apprenticeships shape the character.
+```
+
+
+#### Actor
+
+```note
+Note:
+Flesh out what the actor apprenticeship means for the character.
+```
+
+
+#### Fencing
+
+```note
+Note:
+Flesh out what the fencing apprenticeship means for the character.
+```
+
+
+#### Politician
+
+```note
+Note:
+Flesh out what the politician apprenticeship means for the character.
+```
+<!-- /include -->
+
 <!-- include (A-Appendices.md) -->
+
 ## Appendices
 
 _____

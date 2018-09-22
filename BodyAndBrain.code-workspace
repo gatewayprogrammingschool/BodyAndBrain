@@ -1,10 +1,21 @@
-{
+{	
 	"folders": [
 		{
 			"path": "."
 		}
 	],
 	"settings": {
+		"macros": {
+			"make-html" : [
+				"gps-markdown.transformMarkdown",
+				{ 
+					"command": "workbench.action.tasks.runTask",
+					"args": {
+						"task": "Build  HTML from Markdown"
+					}
+				}
+			]
+		},
 		"editor.insertSpaces": false,
 		"editor.wordWrap": "off",
 		"editor.quickSuggestions": false,
