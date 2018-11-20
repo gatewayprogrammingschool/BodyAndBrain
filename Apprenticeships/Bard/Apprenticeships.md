@@ -7,7 +7,7 @@ We need some good text on being a Bard and how the apprenticeships shape the cha
 
 ```
 
-!include(Actor.md)
+!include(Acting.md)
 
 !include(Fencing.md)
 

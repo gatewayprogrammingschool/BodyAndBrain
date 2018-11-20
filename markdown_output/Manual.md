@@ -1,4 +1,4 @@
-![BodyAndBrain](assets/BodyAndBrain.png)
+![Body And Brain](assets/BodyAndBrain.png)
 
 # Body And Brain - A Simple Role-Playing System
 
@@ -29,8 +29,20 @@
     * [Wizard](#wizard)
     * [Conjuror](#conjuror)
     * [Cleric](#cleric)
+  * [Adventuring](#adventuring)
+  * [Magic](#magic)
+  * [Combat](#combat)
+  * [Non-Player Characters](#non-player-characters)
   * [Apprenticeships](#apprenticeships)
     * [Bard Apprenticeships](#bard-apprenticeships)
+    * [Berserker Apprenticeships](#berserker-apprenticeships)
+    * [Cleric Apprenticeships](#cleric-apprenticeships)
+    * [Conjuror Apprenticeships](#conjuror-apprenticeships)
+    * [Fighter Apprenticeships](#fighter-apprenticeships)
+    * [Paladin Apprenticeships](#paladin-apprenticeships)
+    * [Ranger Apprenticeships](#ranger-apprenticeships)
+    * [Thief Apprenticeships](#thief-apprenticeships)
+    * [Wizard Apprenticeships](#wizard-apprenticeships)
   * [Appendices](#appendices)
     * [Fan Support](#fan-support)
     * [Licensing](#licensing)
@@ -331,7 +343,7 @@ Body and Brain is built around normal fantasy races, but that does not mean we n
 
 Elves are the oldest race in Body and Brain, and are practically immortal.  No Elf has ever died of old age and very few have died of disease. Combat and poison, on the other hand, have claimed many Elves over the millennia.
 
-Elves are very intelligent, perceptive and wise.  They have a great presence about them and the more gregarious of them tend to be [Bards](#bard), with many specializing in [acting](#Acting) while others with a more adventurous side going into [fencing](#fencing) or [politics](#Politics).
+Elves are very intelligent, perceptive and wise.  They have a great presence about them and the more gregarious of them tend to be [Bards](#bard), with many specializing in [acting](#acting) while others with a more adventurous side going into [fencing](#fencing) or [politics](#Politics).
 
 Elves are slight of frame, but are not impeded in the arena of [Strength](#strength), and are especially agile.  Their combination of [Agility](#agility), [Presence](#presence) and [Intelligence](#intelligence) makes them excellent [Rangers](#ranger) and [Thieves](#thief).  [Piety](#piety) is the Elf's Achilles Heel since they consider themselves akin to the Gods and are not very modest about it, which means that Elves cannot be [Paladins](#paladin) or [Clerics](#cleric).
 
@@ -621,69 +633,147 @@ _____
 
 Player classes are the second most important aspect of a character after its [Race](#races).
 
-```text
-NOTE:
-A Word About Apprenticeships
-
-Apprenticeships are a fundamental part of Body and Brain.  They are not only templates for starting a character, but they reflect the types of experiences that a character has had over their young life.  This is one area of Body and Brain that we really need your creativity and submissions.  The apprenticeships will be kept in a separate document structure organized by profession to make it easier for players to contribute.
-```
+> __A Word About Apprenticeships__
+> 
+> Apprenticeships are a fundamental part of Body and Brain.  They are not only templates for starting a character, but they reflect the types of experiences that a character has had over their young life.  This is one area of Body and Brain that we really need your creativity and submissions.  The apprenticeships will be kept in a separate document structure organized by profession to make it easier for players to contribute.
 
 ### Fighter
 
+Master of the sword and shield, armor and helm, when it comes to melee, the Fighter has it all.  No other class can study more armor and weapons than a Fighter.  The [Berserker](#berserker) may deal more damage on the battle field, but the fighter can be more versatile and precise in their tactics, ultimately extending their longevity (and usefulness) in protracted engagements.
+Most of the [races](#races) can be a fighter.  Fighters draw upon their [Constitution](#constitution) to wear heavy armor and absorb damage during combat.  High [Strength](#strength) for melee weapons, or [Agility](#agility) for missile weapons are a must for a fighter.  Fighters may also be cerebral, having the ability to study the mystic arts.  
+
+__Class Bonus__
+
+Groups of two or more fighters equipped with full shields can form a wall that adds 25 points to each participants' defensive bonus and provides cover for party members behind them.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 
 ### Berserker
 
+Want to be scared?  Want to be very, very scared?  Make a Berserker angry at you.  Go ahead, try it.  If you live to tell the tale then what a tale you could tell!  No other combatants are so ferocious during a fight among small parties where the Berserker can isolate a foe and have at them.  But that ferocity is a liability during larger or longer engagements where the Berserker themselves can be targeted for elimination early on.  A fleet footed [Ranger](#ranger) can be especially vexing for a Berserker.    [Strength](#strength) is the primary stat for the Berserker, and choosing to dump stat points into [Constitution](#constitution) can help the Berserker to survive longer encounters.
+
+__Class Bonus__
+
+Berserkers wielding dual battle-axes roll twice for both hit and damage, taking the better of the hit rolls and the sum of the damages rolls.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 
 ### Paladin
 
+Paladins bring their God with them to the Battlefield.  Nearly as adept with weapons as a [Fighter](#fighter), the Paladin can front-line any army.  Their Gods show them their favor during their travels and during their fights, favors they call upon by praying.  Paladins draw on their [Piety](#piety) to strengthen their bond to their God.  Being warriors wearing heavy armor, [Constitution] makes for a great choice of secondary stat to focus on, and having high [Strength](#strength) helps as well.  
+
+__Class Bonus__
+
+Paladins may pray during combat without taking a turn to do so.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 
 ### Ranger
 
+Stealthy, perceptive and a very deadly shot, Rangers are great assets in the wild.  Rangers can track the smallest and largest of creatures that don't fly, and are also adept at finding the nests of the ones that do.  In combat, Rangers have no equal with a bow, drawing upon their strong [Presence](#presence) to locate their target and [Agility](#agility) to accurately aim at it.
+
+__Class Bonus__
+
+Rangers gain an extra attack with a short bow for every four levels of advancement, up to level 16 at which they may let loose five arrows in a round.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 
 ### Thief
 
+Lock-picking is equal parts skill and luck, and Thieves have both.  They also pride themselves in their item lore knowledge which surpasses that of a [Wizard](#wizard).  Thieves are remarkably stealthy in urban areas where they can hide in plain sight by acting natural for the surroundings.  The life of a thief is full of adventure with many opportunities to pick pockets, plant evidence, spy on targets and avoid the authorities.  Thieves are not good front-line fighters but are well equipped for any task requiring a dagger or short bow.
+
+__Class Bonus__
+
+Thieves wearing normal attire for a region may hide in urban areas without failure, even when being sought.  They may not have any exposed armor or weapons when doing so.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 
 ### Bard
 
-[Bard Apprenticeships](#bard-apprenticeships)
+"Let me sing to you the tale of my travels, for amazed you will be by the acts of thee!"  Never ones to pass on an opportunity to sing songs of glory (especially ones concerning themselves), Bards are actually quite adept at living up to their epic tales of daring-do.  Properly outfitted for the task, Bards are very effective at all forms of combat.  Bards may sing while fighting to enhance their prowess or weaken their foes.  But away from the battle-field, the Bard is extremely versatile, and paired up with a [Thief](#thief) they can create a small crime wave that the authorities may never solve!  Bards are especially adept at distraction making the Thief's job all-to-easy.  A Bard lies or dies by their [Presence](#presence).
 
-```todo
-TODO: Populate
-```
+__Class Bonus__
+
+Once a day a Bard can influence a person's decision in his favor without rolling.
+
+[__Available Apprenticeships__](#bard-apprenticeships)
+
+* [Acting](#acting)
+* [Fencing](#fencing)
+* [Politician](#politician)
 
 ### Wizard
 
+If your Wizard yells, "Fire in the hole" it is time to run towards him (unless a [Berserker](#berserker) is chasing you, in which case just run anywhere)!  Damage, and lots of it, is the forte of the Wizard.  Wizards draw upon the energy of the universe to create effects both real and imagined.  But this is no task for the unintelligent as the Wizard depends on their primary stat ([Intelligence](#intelligence)) more than any other class.  Wizards are experts at identifying and using non-religious relics of all types.  With a powerful spell book and fire in their eyes, great Wizards dominate great battles.
+
+__Class Bonus__
+
+Wizards are able to analyze an unknown scroll and cast a spell from it at normal effectiveness in a single turn.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 
 ### Conjuror
 
+Conjurors make things go bump in the night.  Snarling, spooky or spectral, they summon them from the energy and spirits around them.  Conjurors are rarely seen without a summoned pet that can aid them in any scenario natural to the pet, even having the ability to see with the pet's eyes.  Conjurors can also cast spells that influence the energy around various targets, helping or harming them consistent with the targets attitude towards the caster.  Conjurors can be a hardy outdoorsman, able to cast their spells wearing up to soft-leather armor.  Sorcerers can also become proficient with melee combat with staves and spears, fighting side-by-side with their summoned pet.  As with the [Wizard](#wizard), the Conjuror relies heavily on their [Intelligence](#intelligence) with the more hands-on types needing [Strength](#strength) for fighting or the more adventurous needing [Agility](#agility) to aid with more acrobatic skills.
+
+__Class Bonus__
+
+Once a day the Conjuror can transform himself into one of the pets he is able to summon at his current level.  The Conjuror will not lose control over any controlled pets.  The transformation lasts no longer than 24 hours and the Conjuror can break the spell at any time.  The conjuror will fight at the level of the same summoned pet and does not gain combat experience while not in human form.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 
 ### Cleric
 
+With the ability to smite physically and metaphysically, Clerics can be front-line warriors with the ability to heal downed party members quickly on the battle-field by praying to their patron God so long as their God's sigil or totem is displayed to the world on the Cleric's body.  Clerics may use any armor and a shield, but a helm cannot be worn when praying. Like the [Paladin](#paladin), Clerics draw upon their [Piety](#piety) to curry favor with their patron God.
+
+__Class Bonus__
+
+Once per week a Cleric may spend 60 uninterrupted minutes praying over a dead follower of the same God and bring them back to life with one temporary point of stat loss across all stats for each three hours since death starting after the first 10 minutes after death.  If the deceased follows a different God of the same alignment, then the Cleric must pray for three uninterrupted hours and the recipient receives one _permanent_ point of stat loss of their class's main stat, and two temporary stat points across all other stats.
+
 ```todo
-TODO: Populate
+TODO: List available apprenticeships
 ```
 <!-- /include -->
+
+<!-- include (5-Adventuring.md) -->
+
+## Adventuring
+
+_____<!-- /include -->
+
+<!-- include (6-Magic.md) -->
+
+## Magic
+
+_____<!-- /include -->
+
+<!-- include (7-Combat.md) -->
+
+## Combat
+
+_____<!-- /include -->
+
+<!-- include (8-Non-Player_Characters.md) -->
+
+## Non-Player Characters
+
+_____<!-- /include -->
+
+!include (9-Items)
 
 <!-- include (./Apprenticeships/Apprenticeships.md) -->
 
@@ -705,11 +795,11 @@ We need some good text on being a Bard and how the apprenticeships shape the cha
 ```
 
 
-#### Actor
+#### Acting
 
 ```note
 Note:
-Flesh out what the actor apprenticeship means for the character.
+Flesh out what the acting apprenticeship means for the character.
 ```
 
 
@@ -726,6 +816,70 @@ Flesh out what the fencing apprenticeship means for the character.
 ```note
 Note:
 Flesh out what the politician apprenticeship means for the character.
+```
+
+### Berserker Apprenticeships
+
+```note
+Note:
+We need some good text on being a Berserker and how the apprenticeships shape the character.
+```
+
+
+#### Wrestling
+
+```note
+Note:
+Flesh out what the wrestling apprenticeship means for the character.
+```
+
+### Cleric Apprenticeships
+
+```note
+Note:
+We need some good text on being a Berserker and how the apprenticeships shape the character.
+```
+
+### Conjuror Apprenticeships
+
+```note
+Note:
+We need some good text on being a Conjuror and how the apprenticeships shape the character.
+```
+
+### Fighter Apprenticeships
+
+```note
+Note:
+We need some good text on being a Fighter and how the apprenticeships shape the character.
+```
+
+### Paladin Apprenticeships
+
+```note
+Note:
+We need some good text on being a Paladin and how the apprenticeships shape the character.
+```
+
+### Ranger Apprenticeships
+
+```note
+Note:
+We need some good text on being a Ranger and how the apprenticeships shape the character.
+```
+
+### Thief Apprenticeships
+
+```note
+Note:
+We need some good text on being a Thief and how the apprenticeships shape the character.
+```
+
+### Wizard Apprenticeships
+
+```note
+Note:
+We need some good text on being a Wizard and how the apprenticeships shape the character.
 ```
 <!-- /include -->
 

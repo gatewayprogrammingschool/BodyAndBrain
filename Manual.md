@@ -1,4 +1,4 @@
-![BodyAndBrain](assets/BodyAndBrain.png)
+![Body And Brain](assets/BodyAndBrain.png)
 
 # Body And Brain - A Simple Role-Playing System
 
@@ -11,6 +11,16 @@
 !include(3-Races.md)
 
 !include(4-Professions.md)
+
+!include(5-Adventuring.md)
+
+!include(6-Magic.md)
+
+!include(7-Combat.md)
+
+!include(8-Non-Player_Characters.md)
+
+!include(9-Items.md)
 
 !include(./Apprenticeships/Apprenticeships.md)
 
