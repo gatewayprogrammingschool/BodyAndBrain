@@ -17,6 +17,7 @@ Magic is organized into spell lists. Each spell list has a discipline, a governi
 | Paladin | Piety | Leadership | 5 | Sigil |
 | Ranger | Intelligence | Naturalist | 5 | No Metal, No Helms, No Shields, Totem |
 | Bard | Presence | Songs | 7 | No Helms, No Shields, Instrument |
+| Conjuring | Intelligence | Necromancer | 8 | No Metal, No Helms, No Shields, Totem, Necromancy Apprenticeship |
 
 ### Casting Procedure
 
@@ -25,6 +26,8 @@ A caster may cast a spell they know when their character level is equal to or gr
 Casting normally uses the caster's action for the round. Self spells take effect on the caster. Directed, splash, and area spells use the spell attack rules when the target resists by position, armor, or impact. If a spell imposes an ongoing condition, control effect, poison, disease, curse, or similar continuing harm, the target may also make the appropriate resistance roll when the spell description or GM calls for it.
 
 Body and Brain does not use spell slots in the canonical workbook. The limiting factors are known spell level, action time, gear restrictions, focus requirements, range, duration, and the risk of attack or interruption. A caster who is stunned, incapacitated, bound, silenced, or deprived of a required focus cannot cast unless the spell or GM explicitly allows it.
+
+When a spell list names an apprenticeship as a requirement, only characters with that apprenticeship have access to that list. The Necromancer list is available only to Conjurors who chose the Necromancy apprenticeship.
 
 Spells with `Immediate` duration resolve at once. Spells with a timed duration continue for the listed time. Songs last while the Bard keeps playing unless the spell says otherwise; the Bard cannot use another action that would stop the performance without ending the song.
 
@@ -115,6 +118,19 @@ Undead are creatures animated by death, curse, spirit, or necromantic force. The
 | 7 | Unseen | Self | - | - | - | 1D10 per 10 Levels | 1D4 per 4 Levels | Adds modifier to hide skill for duration of spell |
 | 10 | Bandage | Self | - | - | - | 1D4 per 4 levels | Immediate | Heals caster |
 | 20 | Discover | Self | - | - | 20' | - | 1D10  per 10 Levels | Reveals all hidden or invisible items or targets for the duration of the spell. |
+
+### Necromancer
+
+| Level | Name | Type | Targets | Range | Area | Modifier | Duration | Description |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Grave Sense | Self | - | Self | 10 per Level | - | 10m/Level | Detects corpses, undead, burial magic, and death curses in area |
+| 3 | Death Whisper | Directed | 1 | Touch | - | - | Immediate | Asks a corpse or lingering spirit one question per 5 levels that it could answer in life |
+| 5 | Bone Servant | Self | - | 1/Level | - | - | Until Killed | Animates one level 1 skeleton from available bones |
+| 7 | Command Undead | Directed | 1 | 20+Level | - | - | 1D6 per 5 Levels | Controls one undead that fails its Curses resistance |
+| 9 | Life Drain | Directed | 1 | 15+Level | - | 1D8 per 5 Levels | Immediate | Damages living target; caster heals half damage dealt |
+| 12 | Animate Dead | Directed | Area | Touch | 1D4 corpses per 5 Levels | - | Until Killed | Raises corpses as level 3 undead servants |
+| 20 | Bind Spirit | Directed | 1 | Touch | - | - | 1 day/Level | Binds a spirit to a corpse, item, or ward as a guardian or informant |
+| 50 | Lichdom | Self | - | Self | - | - | Permanent | Transforms a willing caster into a lich; campaign-altering ritual |
 
 ### Songs
 

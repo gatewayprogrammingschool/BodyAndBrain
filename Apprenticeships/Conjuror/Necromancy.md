@@ -8,7 +8,7 @@ Source: `Apprenticeships!A11:AO11`.
 
 ##### Special Ability
 
-A Necromancy apprentice gains +5 to Wizardry, Conjuring, or Item Lore rolls made to identify undead, curses, corpses, burial magic, or death-related spell effects.
+A Necromancy apprentice gains access to the Necromancer spell list and gains +5 to Wizardry, Conjuring, or Item Lore rolls made to identify undead, curses, corpses, burial magic, or death-related spell effects.
 
 ##### Development Package
 

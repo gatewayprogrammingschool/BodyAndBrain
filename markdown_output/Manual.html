@@ -27,71 +27,6 @@
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-    /* CSS for syntax highlighting */
-    html { -webkit-text-size-adjust: 100%; }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      {   }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-    code span.at { color: #7d9029; } /* Attribute */
-    code span.bn { color: #40a070; } /* BaseN */
-    code span.bu { color: #008000; } /* BuiltIn */
-    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #4070a0; } /* Char */
-    code span.cn { color: #880000; } /* Constant */
-    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-    code span.dt { color: #902000; } /* DataType */
-    code span.dv { color: #40a070; } /* DecVal */
-    code span.er { color: #ff0000; font-weight: bold; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #40a070; } /* Float */
-    code span.fu { color: #06287e; } /* Function */
-    code span.im { color: #008000; font-weight: bold; } /* Import */
-    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-    code span.op { color: #666666; } /* Operator */
-    code span.ot { color: #007020; } /* Other */
-    code span.pp { color: #bc7a00; } /* Preprocessor */
-    code span.sc { color: #4070a0; } /* SpecialChar */
-    code span.ss { color: #bb6688; } /* SpecialString */
-    code span.st { color: #4070a0; } /* String */
-    code span.va { color: #19177c; } /* Variable */
-    code span.vs { color: #4070a0; } /* VerbatimString */
-    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="./css/style.css" />
 </head>
@@ -106,7 +41,12 @@ A Simple Role-Playing System</h1>
 <li><a href="#body-and-brain---a-simple-role-playing-system">Body And
 Brain - A Simple Role-Playing System</a>
 <ul>
-<li><a href="#overview">Overview</a></li>
+<li><a href="#overview">Overview</a>
+<ul>
+<li><a href="#system-focus">System Focus</a></li>
+<li><a href="#character-and-campaign-use">Character and Campaign
+Use</a></li>
+</ul></li>
 <li><a href="#character-creation">Character Creation</a>
 <ul>
 <li><a href="#dice-notation">Dice Notation</a></li>
@@ -160,6 +100,7 @@ Terms</a></li>
 <li><a href="#leadership">Leadership</a></li>
 <li><a href="#mind">Mind</a></li>
 <li><a href="#naturalist">Naturalist</a></li>
+<li><a href="#necromancer">Necromancer</a></li>
 <li><a href="#songs">Songs</a></li>
 <li><a href="#summoning">Summoning</a></li>
 </ul></li>
@@ -180,6 +121,8 @@ Terms</a></li>
 <li><a href="#baseline-level-5-npcs">Baseline Level 5 NPCs</a></li>
 <li><a href="#npc-scaling-guidance-by-profession">NPC Scaling Guidance
 By Profession</a></li>
+<li><a href="#traditional-monster-level-5-baselines">Traditional Monster
+Level 5 Baselines</a></li>
 <li><a href="#npc-stat-block">NPC Stat Block</a></li>
 <li><a href="#npc-behavior">NPC Behavior</a></li>
 </ul></li>
@@ -224,8 +167,29 @@ instructions for creating, playing and leveling their character.</p>
 <p>Creating game modules for BaB is a breeze due to simplified NPC
 selection and customization. Terrain effects are standardized for
 physical attack and maneuvers.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode gap"><code class="sourceCode gap"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">GAP</span><span class="op">:</span> <span class="va">BodyAndBrain</span>.<span class="va">xlsm</span> <span class="va">does</span> <span class="cn">not</span> <span class="va">provide</span> <span class="va">additional</span> <span class="va">overview</span> <span class="va">prose</span>. <span class="va">Expand</span> <span class="va">the</span> <span class="va">setting</span><span class="op">/</span><span class="va">system</span> <span class="va">overview</span> <span class="va">manually</span>.</span></code></pre></div>
+<h3 id="system-focus">System Focus</h3>
+<p>Body and Brain is organized around two linked halves of a character.
+Body covers Strength, Agility, and Constitution: the physical power,
+coordination, and endurance used for combat, travel, labor, and
+survival. Brain covers Intelligence, Presence, and Piety: the reasoning,
+will, social force, faith, and magical discipline used for knowledge,
+command, resistance, and spell work.</p>
+<p>Most play should resolve quickly at the table. Choose the stat that
+matches the action, apply the relevant skill or resistance, roll the
+listed dice, and use the result table for the effect. The character
+sheet and canonical workbook carry the math so players can spend their
+attention on decisions rather than recalculating derived values.</p>
+<h3 id="character-and-campaign-use">Character and Campaign Use</h3>
+<p>A player character starts with race, profession, apprenticeship,
+starting skill package, equipment, and any spell list granted by
+training. Those choices define what the character is already good at,
+while advancement grows the same Body and Brain structure without
+changing the core resolution method.</p>
+<p>For game masters, the system keeps NPCs, monsters, terrain, armor,
+weapons, maneuvers, and spell effects in consistent tables. Canonical
+workbook values should be treated as the source for numerical baselines;
+this manual explains how to apply those values during play and marks any
+unresolved design gaps directly where they remain.</p>
 <h2 id="character-creation">Character Creation</h2>
 <hr />
 <!-- WORKBOOK-GENERATED:DICE-NOTATION:START -->
@@ -3944,6 +3908,14 @@ canonical workbook.</p>
 <td>7</td>
 <td>No Helms, No Shields, Instrument</td>
 </tr>
+<tr>
+<td>Conjuring</td>
+<td>Intelligence</td>
+<td>Necromancer</td>
+<td>8</td>
+<td>No Metal, No Helms, No Shields, Totem, Necromancy
+Apprenticeship</td>
+</tr>
 </tbody>
 </table>
 <h3 id="casting-procedure">Casting Procedure</h3>
@@ -3965,6 +3937,10 @@ restrictions, focus requirements, range, duration, and the risk of
 attack or interruption. A caster who is stunned, incapacitated, bound,
 silenced, or deprived of a required focus cannot cast unless the spell
 or GM explicitly allows it.</p>
+<p>When a spell list names an apprenticeship as a requirement, only
+characters with that apprenticeship have access to that list. The
+Necromancer list is available only to Conjurors who chose the Necromancy
+apprenticeship.</p>
 <p>Spells with <code>Immediate</code> duration resolve at once. Spells
 with a timed duration continue for the listed time. Songs last while the
 Bard keeps playing unless the spell says otherwise; the Bard cannot use
@@ -4697,6 +4673,126 @@ spell.</td>
 <td>1D10 per 10 Levels</td>
 <td>Reveals all hidden or invisible items or targets for the duration of
 the spell.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="necromancer">Necromancer</h3>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr>
+<th>Level</th>
+<th>Name</th>
+<th>Type</th>
+<th>Targets</th>
+<th>Range</th>
+<th>Area</th>
+<th>Modifier</th>
+<th>Duration</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Grave Sense</td>
+<td>Self</td>
+<td>-</td>
+<td>Self</td>
+<td>10 per Level</td>
+<td>-</td>
+<td>10m/Level</td>
+<td>Detects corpses, undead, burial magic, and death curses in area</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Death Whisper</td>
+<td>Directed</td>
+<td>1</td>
+<td>Touch</td>
+<td>-</td>
+<td>-</td>
+<td>Immediate</td>
+<td>Asks a corpse or lingering spirit one question per 5 levels that it
+could answer in life</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Bone Servant</td>
+<td>Self</td>
+<td>-</td>
+<td>1/Level</td>
+<td>-</td>
+<td>-</td>
+<td>Until Killed</td>
+<td>Animates one level 1 skeleton from available bones</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Command Undead</td>
+<td>Directed</td>
+<td>1</td>
+<td>20+Level</td>
+<td>-</td>
+<td>-</td>
+<td>1D6 per 5 Levels</td>
+<td>Controls one undead that fails its Curses resistance</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Life Drain</td>
+<td>Directed</td>
+<td>1</td>
+<td>15+Level</td>
+<td>-</td>
+<td>1D8 per 5 Levels</td>
+<td>Immediate</td>
+<td>Damages living target; caster heals half damage dealt</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Animate Dead</td>
+<td>Directed</td>
+<td>Area</td>
+<td>Touch</td>
+<td>1D4 corpses per 5 Levels</td>
+<td>-</td>
+<td>Until Killed</td>
+<td>Raises corpses as level 3 undead servants</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Bind Spirit</td>
+<td>Directed</td>
+<td>1</td>
+<td>Touch</td>
+<td>-</td>
+<td>-</td>
+<td>1 day/Level</td>
+<td>Binds a spirit to a corpse, item, or ward as a guardian or
+informant</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Lichdom</td>
+<td>Self</td>
+<td>-</td>
+<td>Self</td>
+<td>-</td>
+<td>-</td>
+<td>Permanent</td>
+<td>Transforms a willing caster into a lich; campaign-altering
+ritual</td>
 </tr>
 </tbody>
 </table>
@@ -5716,11 +5812,12 @@ armor, and maneuver rules as player characters. For important recurring
 characters, build the NPC as a full character. For a one-scene opponent
 or ally, use the quick generator below.</p>
 <h3 id="npc-generation">NPC Generation</h3>
-<p>The quick generator starts from a level 5 adult base NPC. Level
-changes use an inverted bell curve: changes near level 5 are small,
-while changes farther from level 5 become increasingly significant.</p>
+<p>The quick generator uses target levels from 1 to 50 and starts from a
+level 5 adult base NPC. Level changes use an inverted bell curve:
+changes near level 5 are small, while changes farther from level 5
+become increasingly significant.</p>
 <ol type="1">
-<li>Choose the NPC’s target level.</li>
+<li>Choose the NPC’s target level from 1 to 50.</li>
 <li>Calculate <code>Level Offset = Target Level - 5</code>.</li>
 <li>Convert that offset into a signed
 <code>Level Significance Score</code>:
@@ -5745,8 +5842,9 @@ condition.</li>
 </ol>
 <h3 id="npc-level-significance">NPC Level Significance</h3>
 <p>The curve below makes level changes close to 5 modest, but makes each
-additional step away from level 5 more important than the previous
-step.</p>
+additional step away from level 5 more important than the previous step.
+Levels above 10 use the experienced-adult age modifier; their labels are
+power tiers rather than new age categories.</p>
 <table>
 <colgroup>
 <col style="width: 20%" />
@@ -5758,7 +5856,7 @@ step.</p>
 <thead>
 <tr>
 <th>Target Level</th>
-<th>Life Stage</th>
+<th>Life Stage / Tier</th>
 <th>Level Offset</th>
 <th>Level Significance Score</th>
 <th>Step Meaning</th>
@@ -5770,28 +5868,28 @@ step.</p>
 <td>Apprentice / Adolescent</td>
 <td>-4</td>
 <td>-10</td>
-<td>Four steps below adult baseline: -1, -2, -3, -4</td>
+<td>4 steps below adult baseline; newest step -4</td>
 </tr>
 <tr>
 <td>2</td>
 <td>Young Adult</td>
 <td>-3</td>
 <td>-6</td>
-<td>Three steps below adult baseline: -1, -2, -3</td>
+<td>3 steps below adult baseline; newest step -3</td>
 </tr>
 <tr>
 <td>3</td>
 <td>Young Adult</td>
 <td>-2</td>
 <td>-3</td>
-<td>Two steps below adult baseline: -1, -2</td>
+<td>2 steps below adult baseline; newest step -2</td>
 </tr>
 <tr>
 <td>4</td>
 <td>Young Adult</td>
 <td>-1</td>
 <td>-1</td>
-<td>One step below adult baseline</td>
+<td>1 step below adult baseline; newest step -1</td>
 </tr>
 <tr>
 <td>5</td>
@@ -5805,41 +5903,321 @@ step.</p>
 <td>Adult</td>
 <td>+1</td>
 <td>+1</td>
-<td>One step above adult baseline</td>
+<td>1 step above adult baseline; newest step +1</td>
 </tr>
 <tr>
 <td>7</td>
 <td>Adult</td>
 <td>+2</td>
 <td>+3</td>
-<td>Two steps above adult baseline: +1, +2</td>
+<td>2 steps above adult baseline; newest step +2</td>
 </tr>
 <tr>
 <td>8</td>
 <td>Experienced Adult</td>
 <td>+3</td>
 <td>+6</td>
-<td>Three steps above adult baseline: +1, +2, +3</td>
+<td>3 steps above adult baseline; newest step +3</td>
 </tr>
 <tr>
 <td>9</td>
 <td>Experienced Adult</td>
 <td>+4</td>
 <td>+10</td>
-<td>Four steps above adult baseline: +1, +2, +3, +4</td>
+<td>4 steps above adult baseline; newest step +4</td>
 </tr>
 <tr>
 <td>10</td>
 <td>Experienced Adult</td>
 <td>+5</td>
 <td>+15</td>
-<td>Five steps above adult baseline: +1, +2, +3, +4, +5</td>
+<td>5 steps above adult baseline; newest step +5</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Veteran Adult</td>
+<td>+6</td>
+<td>+21</td>
+<td>6 steps above adult baseline; newest step +6</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Veteran Adult</td>
+<td>+7</td>
+<td>+28</td>
+<td>7 steps above adult baseline; newest step +7</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Veteran Adult</td>
+<td>+8</td>
+<td>+36</td>
+<td>8 steps above adult baseline; newest step +8</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Veteran Adult</td>
+<td>+9</td>
+<td>+45</td>
+<td>9 steps above adult baseline; newest step +9</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Veteran Adult</td>
+<td>+10</td>
+<td>+55</td>
+<td>10 steps above adult baseline; newest step +10</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Veteran Adult</td>
+<td>+11</td>
+<td>+66</td>
+<td>11 steps above adult baseline; newest step +11</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Veteran Adult</td>
+<td>+12</td>
+<td>+78</td>
+<td>12 steps above adult baseline; newest step +12</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Veteran Adult</td>
+<td>+13</td>
+<td>+91</td>
+<td>13 steps above adult baseline; newest step +13</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Veteran Adult</td>
+<td>+14</td>
+<td>+105</td>
+<td>14 steps above adult baseline; newest step +14</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Veteran Adult</td>
+<td>+15</td>
+<td>+120</td>
+<td>15 steps above adult baseline; newest step +15</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Master Adult</td>
+<td>+16</td>
+<td>+136</td>
+<td>16 steps above adult baseline; newest step +16</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Master Adult</td>
+<td>+17</td>
+<td>+153</td>
+<td>17 steps above adult baseline; newest step +17</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Master Adult</td>
+<td>+18</td>
+<td>+171</td>
+<td>18 steps above adult baseline; newest step +18</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Master Adult</td>
+<td>+19</td>
+<td>+190</td>
+<td>19 steps above adult baseline; newest step +19</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Master Adult</td>
+<td>+20</td>
+<td>+210</td>
+<td>20 steps above adult baseline; newest step +20</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Master Adult</td>
+<td>+21</td>
+<td>+231</td>
+<td>21 steps above adult baseline; newest step +21</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Master Adult</td>
+<td>+22</td>
+<td>+253</td>
+<td>22 steps above adult baseline; newest step +22</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Master Adult</td>
+<td>+23</td>
+<td>+276</td>
+<td>23 steps above adult baseline; newest step +23</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Master Adult</td>
+<td>+24</td>
+<td>+300</td>
+<td>24 steps above adult baseline; newest step +24</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Master Adult</td>
+<td>+25</td>
+<td>+325</td>
+<td>25 steps above adult baseline; newest step +25</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Legendary Adult</td>
+<td>+26</td>
+<td>+351</td>
+<td>26 steps above adult baseline; newest step +26</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Legendary Adult</td>
+<td>+27</td>
+<td>+378</td>
+<td>27 steps above adult baseline; newest step +27</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Legendary Adult</td>
+<td>+28</td>
+<td>+406</td>
+<td>28 steps above adult baseline; newest step +28</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Legendary Adult</td>
+<td>+29</td>
+<td>+435</td>
+<td>29 steps above adult baseline; newest step +29</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Legendary Adult</td>
+<td>+30</td>
+<td>+465</td>
+<td>30 steps above adult baseline; newest step +30</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Legendary Adult</td>
+<td>+31</td>
+<td>+496</td>
+<td>31 steps above adult baseline; newest step +31</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Legendary Adult</td>
+<td>+32</td>
+<td>+528</td>
+<td>32 steps above adult baseline; newest step +32</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Legendary Adult</td>
+<td>+33</td>
+<td>+561</td>
+<td>33 steps above adult baseline; newest step +33</td>
+</tr>
+<tr>
+<td>39</td>
+<td>Legendary Adult</td>
+<td>+34</td>
+<td>+595</td>
+<td>34 steps above adult baseline; newest step +34</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Legendary Adult</td>
+<td>+35</td>
+<td>+630</td>
+<td>35 steps above adult baseline; newest step +35</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Mythic Adult</td>
+<td>+36</td>
+<td>+666</td>
+<td>36 steps above adult baseline; newest step +36</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Mythic Adult</td>
+<td>+37</td>
+<td>+703</td>
+<td>37 steps above adult baseline; newest step +37</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Mythic Adult</td>
+<td>+38</td>
+<td>+741</td>
+<td>38 steps above adult baseline; newest step +38</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Mythic Adult</td>
+<td>+39</td>
+<td>+780</td>
+<td>39 steps above adult baseline; newest step +39</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Mythic Adult</td>
+<td>+40</td>
+<td>+820</td>
+<td>40 steps above adult baseline; newest step +40</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Mythic Adult</td>
+<td>+41</td>
+<td>+861</td>
+<td>41 steps above adult baseline; newest step +41</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Mythic Adult</td>
+<td>+42</td>
+<td>+903</td>
+<td>42 steps above adult baseline; newest step +42</td>
+</tr>
+<tr>
+<td>48</td>
+<td>Mythic Adult</td>
+<td>+43</td>
+<td>+946</td>
+<td>43 steps above adult baseline; newest step +43</td>
+</tr>
+<tr>
+<td>49</td>
+<td>Mythic Adult</td>
+<td>+44</td>
+<td>+990</td>
+<td>44 steps above adult baseline; newest step +44</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Mythic Adult</td>
+<td>+45</td>
+<td>+1035</td>
+<td>45 steps above adult baseline; newest step +45</td>
 </tr>
 </tbody>
 </table>
-<p>For target levels beyond 10, keep extending the same pattern by
-adding the next step size. For example, level 11 has score +21 because
-level 10 is +15 and the next step is +6.</p>
+<p>The published NPC scale stops at level 50. If a campaign deliberately
+needs entities beyond level 50, keep extending the same pattern by
+adding the next step size.</p>
 <h3 id="npc-stat-factors">NPC Stat Factors</h3>
 <table>
 <colgroup>
@@ -6668,7 +7046,7 @@ level 5 Signature baseline of <code>5</code>.</p>
 <h3 id="npc-scaling-guidance-by-profession">NPC Scaling Guidance By
 Profession</h3>
 <p>These tables show how the NPC scaling curve tends to affect each
-valid race for each profession. The level 1 and level 10 checkpoints
+valid race for each profession. The level 1 and level 50 checkpoints
 include the level significance score, racial stat bonuses, and age
 modifiers. Use them as guidance for quick NPCs; fully built NPCs still
 use the complete character rules.</p>
@@ -6697,8 +7075,9 @@ Intelligence support it.</p>
 improves hit scaling</td>
 <td>Level 1: Presence 65 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Presence 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Presence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Half-Elf</td>
@@ -6706,8 +7085,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Presence 66 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Presence 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Presence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Elf</td>
@@ -6715,8 +7095,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Presence 67 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Presence 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Presence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Halfling</td>
@@ -6724,8 +7105,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Presence 67 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Presence 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Presence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Feline</td>
@@ -6733,8 +7115,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Presence 68 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Presence 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Presence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -6763,8 +7146,9 @@ Constitution support it.</p>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 62 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 115. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Dwarf</td>
@@ -6772,8 +7156,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 62 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 130. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Reptilian</td>
@@ -6781,8 +7166,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 62 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 115. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Orc</td>
@@ -6790,8 +7176,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 63 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 130. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -6820,8 +7207,9 @@ Intelligence support it.</p>
 scaling</td>
 <td>Level 1: Piety 65 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 90. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Dwarf</td>
@@ -6829,16 +7217,18 @@ reduce Body after the significance score is applied.</td>
 improves hit scaling</td>
 <td>Level 1: Piety 66 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 95. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Halfling</td>
 <td>Piety 95 (+4); Hits 40; neutral Piety; neutral hits</td>
 <td>Level 1: Piety 65 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 90. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Reptilian</td>
@@ -6846,8 +7236,9 @@ reduce Body after the significance score is applied.</td>
 improves hit scaling</td>
 <td>Level 1: Piety 67 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 90. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Orc</td>
@@ -6855,8 +7246,9 @@ reduce Body after the significance score is applied.</td>
 scaling</td>
 <td>Level 1: Piety 65 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 95. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -6886,8 +7278,9 @@ improves hit scaling</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Half-Elf</td>
@@ -6896,8 +7289,9 @@ Constitution improves hit scaling</td>
 <td>Level 1: Intelligence 66 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Elf</td>
@@ -6906,8 +7300,9 @@ neutral hits</td>
 <td>Level 1: Intelligence 67 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Dwarf</td>
@@ -6916,8 +7311,9 @@ improves hit scaling</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Halfling</td>
@@ -6926,8 +7322,9 @@ neutral hits</td>
 <td>Level 1: Intelligence 66 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Reptilian</td>
@@ -6936,8 +7333,9 @@ improves hit scaling</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Feline</td>
@@ -6946,8 +7344,9 @@ hits</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -6976,8 +7375,9 @@ Constitution support it.</p>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 62 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 115. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Half-Elf</td>
@@ -6985,8 +7385,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 61 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 115. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Dwarf</td>
@@ -6994,8 +7395,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 62 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 130. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Reptilian</td>
@@ -7003,8 +7405,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 62 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 115. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Orc</td>
@@ -7012,8 +7415,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Strength 63 (+1), Hits 10. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Strength 100 (+10), Hits 130. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Strength 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -7042,8 +7446,9 @@ Intelligence support it.</p>
 scaling</td>
 <td>Level 1: Piety 65 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 90. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Dwarf</td>
@@ -7051,8 +7456,9 @@ reduce Body after the significance score is applied.</td>
 improves hit scaling</td>
 <td>Level 1: Piety 66 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 95. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Reptilian</td>
@@ -7060,8 +7466,9 @@ reduce Body after the significance score is applied.</td>
 improves hit scaling</td>
 <td>Level 1: Piety 67 (+1), Hits 5. Adolescent penalties make both Body
 and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Piety 100 (+10), Hits 90. Experienced levels add Brain and
-reduce Body after the significance score is applied.</td>
+<td>Level 50: Piety 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -7090,8 +7497,9 @@ Presence supports it.</p>
 Constitution improves hit scaling</td>
 <td>Level 1: Agility 66 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 90. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Half-Elf</td>
@@ -7099,8 +7507,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Agility 67 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 90. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Elf</td>
@@ -7108,8 +7517,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Agility 68 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Halfling</td>
@@ -7117,8 +7527,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Agility 67 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Feline</td>
@@ -7126,8 +7537,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Agility 68 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -7156,8 +7568,9 @@ Presence supports it.</p>
 Constitution improves hit scaling</td>
 <td>Level 1: Agility 66 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 90. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Half-Elf</td>
@@ -7165,8 +7578,9 @@ and reduce Body after the significance score is applied.</td>
 Constitution improves hit scaling</td>
 <td>Level 1: Agility 67 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 90. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Elf</td>
@@ -7174,8 +7588,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Agility 68 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Halfling</td>
@@ -7183,8 +7598,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Agility 67 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Feline</td>
@@ -7192,8 +7608,9 @@ and reduce Body after the significance score is applied.</td>
 hits</td>
 <td>Level 1: Agility 68 (+1), Hits 5. Adolescent penalties make both
 Body and Brain immature; young-adult levels recover Body first.</td>
-<td>Level 10: Agility 100 (+10), Hits 85. Experienced levels add Brain
-and reduce Body after the significance score is applied.</td>
+<td>Level 50: Agility 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 </tbody>
 </table>
@@ -7223,8 +7640,9 @@ improves hit scaling</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Half-Elf</td>
@@ -7233,8 +7651,9 @@ Constitution improves hit scaling</td>
 <td>Level 1: Intelligence 66 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Elf</td>
@@ -7243,8 +7662,9 @@ neutral hits</td>
 <td>Level 1: Intelligence 67 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Dwarf</td>
@@ -7253,8 +7673,9 @@ improves hit scaling</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Halfling</td>
@@ -7263,8 +7684,9 @@ neutral hits</td>
 <td>Level 1: Intelligence 66 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Reptilian</td>
@@ -7273,8 +7695,9 @@ improves hit scaling</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
 </tr>
 <tr>
 <td>Feline</td>
@@ -7283,8 +7706,600 @@ hits</td>
 <td>Level 1: Intelligence 65 (+1), Hits 5. Adolescent penalties make
 both Body and Brain immature; young-adult levels recover Body
 first.</td>
-<td>Level 10: Intelligence 100 (+10), Hits 85. Experienced levels add
-Brain and reduce Body after the significance score is applied.</td>
+<td>Level 50: Intelligence 100 (+10), Hits 3190. Mythic levels keep the
+experienced-adult age modifier and usually cap defining stats at
+100.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="traditional-monster-level-5-baselines">Traditional Monster Level
+5 Baselines</h3>
+<p>The following quick-play baselines treat traditional monsters as NPC
+archetypes. Each monster receives two logical profession templates.
+These are best-fit GM tools rather than player race/profession
+permissions: start from the profession’s level 5 NPC stat array, apply
+the monster profile modifier, clamp stats to 1 through 100, then
+calculate hits normally. Stat cells show <code>score (bonus)</code>.</p>
+<p>Exceptional monsters (<code>Lich</code>, <code>Demon</code>,
+<code>Dragon</code>, and <code>Vampire</code>) have one overdriven stat
+tied to their physical or mental exceptionalism. When a skill is
+governed by that overdriven stat, increase the effect of the skill by
+50% after the ordinary skill result is determined. This changes the
+result’s effect, not the roll, stat score, skill level, or hit
+total.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+<col style="width: 7%" />
+</colgroup>
+<thead>
+<tr>
+<th>Monster</th>
+<th>Profession</th>
+<th>Role</th>
+<th>Strength</th>
+<th>Agility</th>
+<th>Constitution</th>
+<th>Intelligence</th>
+<th>Presence</th>
+<th>Piety</th>
+<th>Overdriven Stat</th>
+<th>Overdrive Effect</th>
+<th>Hits</th>
+<th>Signature</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Goblin</td>
+<td>Rogue</td>
+<td>ambusher</td>
+<td>52 (+1)</td>
+<td>98 (+4)</td>
+<td>61 (+1)</td>
+<td>60 (+1)</td>
+<td>73 (+1)</td>
+<td>43 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Stealing or Hiding 5</td>
+</tr>
+<tr>
+<td>Goblin</td>
+<td>Ranger</td>
+<td>skirmisher</td>
+<td>52 (+1)</td>
+<td>98 (+4)</td>
+<td>61 (+1)</td>
+<td>60 (+1)</td>
+<td>73 (+1)</td>
+<td>43 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Tracking or Primary Missile 5</td>
+</tr>
+<tr>
+<td>Hobgoblin</td>
+<td>Fighter</td>
+<td>soldier</td>
+<td>92 (+3)</td>
+<td>76 (+2)</td>
+<td>82 (+2)</td>
+<td>55 (+1)</td>
+<td>57 (+1)</td>
+<td>45 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Hobgoblin</td>
+<td>Paladin</td>
+<td>champion</td>
+<td>62 (+1)</td>
+<td>56 (+1)</td>
+<td>72 (+1)</td>
+<td>65 (+1)</td>
+<td>57 (+1)</td>
+<td>95 (+4)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Prayer or Leadership 5</td>
+</tr>
+<tr>
+<td>Kobold</td>
+<td>Rogue</td>
+<td>trapper</td>
+<td>50 (+1)</td>
+<td>98 (+4)</td>
+<td>60 (+1)</td>
+<td>62 (+1)</td>
+<td>73 (+1)</td>
+<td>45 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Stealing or Hiding 5</td>
+</tr>
+<tr>
+<td>Kobold</td>
+<td>Conjuror</td>
+<td>hex worker</td>
+<td>35 (+0)</td>
+<td>63 (+1)</td>
+<td>50 (+1)</td>
+<td>97 (+4)</td>
+<td>73 (+1)</td>
+<td>70 (+1)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Conjuring 5</td>
+</tr>
+<tr>
+<td>Orc</td>
+<td>Berserker</td>
+<td>raider</td>
+<td>93 (+3)</td>
+<td>75 (+1)</td>
+<td>82 (+2)</td>
+<td>52 (+1)</td>
+<td>54 (+1)</td>
+<td>45 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Orc</td>
+<td>Fighter</td>
+<td>warrior</td>
+<td>93 (+3)</td>
+<td>75 (+1)</td>
+<td>82 (+2)</td>
+<td>52 (+1)</td>
+<td>54 (+1)</td>
+<td>45 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Ogre</td>
+<td>Berserker</td>
+<td>brute</td>
+<td>100 (+10)</td>
+<td>67 (+1)</td>
+<td>90 (+3)</td>
+<td>47 (+0)</td>
+<td>51 (+1)</td>
+<td>41 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Ogre</td>
+<td>Fighter</td>
+<td>club guard</td>
+<td>100 (+10)</td>
+<td>67 (+1)</td>
+<td>90 (+3)</td>
+<td>47 (+0)</td>
+<td>51 (+1)</td>
+<td>41 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Troll</td>
+<td>Berserker</td>
+<td>regenerator</td>
+<td>100 (+10)</td>
+<td>72 (+1)</td>
+<td>94 (+3)</td>
+<td>49 (+0)</td>
+<td>51 (+1)</td>
+<td>43 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Troll</td>
+<td>Ranger</td>
+<td>stalker</td>
+<td>70 (+1)</td>
+<td>92 (+3)</td>
+<td>79 (+2)</td>
+<td>54 (+1)</td>
+<td>71 (+1)</td>
+<td>43 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Tracking or Primary Missile 5</td>
+</tr>
+<tr>
+<td>Skeleton</td>
+<td>Fighter</td>
+<td>bone guard</td>
+<td>90 (+3)</td>
+<td>75 (+1)</td>
+<td>72 (+1)</td>
+<td>45 (+0)</td>
+<td>47 (+0)</td>
+<td>35 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Skeleton</td>
+<td>Ranger</td>
+<td>dead archer</td>
+<td>60 (+1)</td>
+<td>95 (+4)</td>
+<td>57 (+1)</td>
+<td>50 (+1)</td>
+<td>67 (+1)</td>
+<td>35 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Tracking or Primary Missile 5</td>
+</tr>
+<tr>
+<td>Zombie</td>
+<td>Fighter</td>
+<td>shambler</td>
+<td>94 (+3)</td>
+<td>63 (+1)</td>
+<td>92 (+3)</td>
+<td>40 (+0)</td>
+<td>43 (+0)</td>
+<td>35 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Zombie</td>
+<td>Berserker</td>
+<td>relentless dead</td>
+<td>94 (+3)</td>
+<td>63 (+1)</td>
+<td>92 (+3)</td>
+<td>40 (+0)</td>
+<td>43 (+0)</td>
+<td>35 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Ghoul</td>
+<td>Rogue</td>
+<td>grave ambusher</td>
+<td>62 (+1)</td>
+<td>98 (+4)</td>
+<td>67 (+1)</td>
+<td>56 (+1)</td>
+<td>73 (+1)</td>
+<td>37 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Stealing or Hiding 5</td>
+</tr>
+<tr>
+<td>Ghoul</td>
+<td>Berserker</td>
+<td>feeding frenzy</td>
+<td>92 (+3)</td>
+<td>78 (+2)</td>
+<td>82 (+2)</td>
+<td>51 (+1)</td>
+<td>53 (+1)</td>
+<td>37 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Vampire</td>
+<td>Rogue</td>
+<td>night stalker</td>
+<td>64 (+1)</td>
+<td>98 (+4)</td>
+<td>67 (+1)</td>
+<td>64 (+1)</td>
+<td>83 (+2)</td>
+<td>37 (+0)</td>
+<td>Agility</td>
+<td>Governed skill effect x1.5</td>
+<td>40</td>
+<td>Stealing or Hiding 5</td>
+</tr>
+<tr>
+<td>Vampire</td>
+<td>Conjuror</td>
+<td>blood sorcerer</td>
+<td>49 (+0)</td>
+<td>63 (+1)</td>
+<td>57 (+1)</td>
+<td>99 (+7)</td>
+<td>83 (+2)</td>
+<td>62 (+1)</td>
+<td>Intelligence</td>
+<td>Governed skill effect x1.5</td>
+<td>40</td>
+<td>Conjuring 5</td>
+</tr>
+<tr>
+<td>Werewolf</td>
+<td>Berserker</td>
+<td>frenzied beast</td>
+<td>98 (+4)</td>
+<td>78 (+2)</td>
+<td>86 (+2)</td>
+<td>53 (+1)</td>
+<td>55 (+1)</td>
+<td>41 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Werewolf</td>
+<td>Ranger</td>
+<td>moon hunter</td>
+<td>68 (+1)</td>
+<td>98 (+4)</td>
+<td>71 (+1)</td>
+<td>58 (+1)</td>
+<td>75 (+1)</td>
+<td>41 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Tracking or Primary Missile 5</td>
+</tr>
+<tr>
+<td>Giant</td>
+<td>Fighter</td>
+<td>club warrior</td>
+<td>100 (+10)</td>
+<td>67 (+1)</td>
+<td>92 (+3)</td>
+<td>51 (+1)</td>
+<td>57 (+1)</td>
+<td>45 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Giant</td>
+<td>Berserker</td>
+<td>stone thrower</td>
+<td>100 (+10)</td>
+<td>67 (+1)</td>
+<td>92 (+3)</td>
+<td>51 (+1)</td>
+<td>57 (+1)</td>
+<td>45 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Minotaur</td>
+<td>Fighter</td>
+<td>maze guard</td>
+<td>100 (+10)</td>
+<td>75 (+1)</td>
+<td>88 (+2)</td>
+<td>53 (+1)</td>
+<td>55 (+1)</td>
+<td>43 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Minotaur</td>
+<td>Berserker</td>
+<td>charger</td>
+<td>100 (+10)</td>
+<td>75 (+1)</td>
+<td>88 (+2)</td>
+<td>53 (+1)</td>
+<td>55 (+1)</td>
+<td>43 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Harpy</td>
+<td>Bard</td>
+<td>song lure</td>
+<td>56 (+1)</td>
+<td>68 (+1)</td>
+<td>58 (+1)</td>
+<td>70 (+1)</td>
+<td>100 (+10)</td>
+<td>46 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Songs or Persuasion 5</td>
+</tr>
+<tr>
+<td>Harpy</td>
+<td>Rogue</td>
+<td>aerial thief</td>
+<td>56 (+1)</td>
+<td>98 (+4)</td>
+<td>63 (+1)</td>
+<td>60 (+1)</td>
+<td>83 (+2)</td>
+<td>41 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Stealing or Hiding 5</td>
+</tr>
+<tr>
+<td>Gargoyle</td>
+<td>Fighter</td>
+<td>stone sentinel</td>
+<td>96 (+4)</td>
+<td>75 (+1)</td>
+<td>90 (+3)</td>
+<td>51 (+1)</td>
+<td>53 (+1)</td>
+<td>41 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Gargoyle</td>
+<td>Rogue</td>
+<td>statue ambusher</td>
+<td>66 (+1)</td>
+<td>95 (+4)</td>
+<td>75 (+1)</td>
+<td>56 (+1)</td>
+<td>73 (+1)</td>
+<td>41 (+0)</td>
+<td>-</td>
+<td>-</td>
+<td>40</td>
+<td>Stealing or Hiding 5</td>
+</tr>
+<tr>
+<td>Dragon</td>
+<td>Fighter</td>
+<td>ancient terror</td>
+<td>100 (+10)</td>
+<td>79 (+2)</td>
+<td>92 (+3)</td>
+<td>63 (+1)</td>
+<td>65 (+1)</td>
+<td>45 (+0)</td>
+<td>Strength</td>
+<td>Governed skill effect x1.5</td>
+<td>50</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Dragon</td>
+<td>Conjuror</td>
+<td>breath caster</td>
+<td>60 (+1)</td>
+<td>64 (+1)</td>
+<td>67 (+1)</td>
+<td>100 (+10)</td>
+<td>85 (+2)</td>
+<td>70 (+1)</td>
+<td>Intelligence</td>
+<td>Governed skill effect x1.5</td>
+<td>40</td>
+<td>Conjuring 5</td>
+</tr>
+<tr>
+<td>Lich</td>
+<td>Wizard</td>
+<td>undead archmage</td>
+<td>37 (+0)</td>
+<td>56 (+1)</td>
+<td>49 (+0)</td>
+<td>100 (+10)</td>
+<td>83 (+2)</td>
+<td>60 (+1)</td>
+<td>Intelligence</td>
+<td>Governed skill effect x1.5</td>
+<td>35</td>
+<td>Wizardry 5</td>
+</tr>
+<tr>
+<td>Lich</td>
+<td>Conjuror</td>
+<td>death summoner</td>
+<td>37 (+0)</td>
+<td>56 (+1)</td>
+<td>49 (+0)</td>
+<td>100 (+10)</td>
+<td>83 (+2)</td>
+<td>60 (+1)</td>
+<td>Intelligence</td>
+<td>Governed skill effect x1.5</td>
+<td>35</td>
+<td>Conjuring 5</td>
+</tr>
+<tr>
+<td>Demon</td>
+<td>Berserker</td>
+<td>fiendish brute</td>
+<td>100 (+10)</td>
+<td>79 (+2)</td>
+<td>88 (+2)</td>
+<td>59 (+1)</td>
+<td>63 (+1)</td>
+<td>33 (+0)</td>
+<td>Strength</td>
+<td>Governed skill effect x1.5</td>
+<td>45</td>
+<td>Primary Melee 5</td>
+</tr>
+<tr>
+<td>Demon</td>
+<td>Conjuror</td>
+<td>hell caster</td>
+<td>55 (+1)</td>
+<td>64 (+1)</td>
+<td>63 (+1)</td>
+<td>99 (+7)</td>
+<td>83 (+2)</td>
+<td>58 (+1)</td>
+<td>Intelligence</td>
+<td>Governed skill effect x1.5</td>
+<td>40</td>
+<td>Conjuring 5</td>
 </tr>
 </tbody>
 </table>
@@ -9423,9 +10438,10 @@ insight into curses, undead, and lingering harm.</p>
 <p>Available to: Conjuror</p>
 <p>Source: <code>Apprenticeships!A11:AO11</code>.</p>
 <h5 id="special-ability-9">Special Ability</h5>
-<p>A Necromancy apprentice gains +5 to Wizardry, Conjuring, or Item Lore
-rolls made to identify undead, curses, corpses, burial magic, or
-death-related spell effects.</p>
+<p>A Necromancy apprentice gains access to the Necromancer spell list
+and gains +5 to Wizardry, Conjuring, or Item Lore rolls made to identify
+undead, curses, corpses, burial magic, or death-related spell
+effects.</p>
 <h5 id="development-package-9">Development Package</h5>
 <p>A level 1 adolescent apprentice begins with the following baseline
 skill levels.</p>
