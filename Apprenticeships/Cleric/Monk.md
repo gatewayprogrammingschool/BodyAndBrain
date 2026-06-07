@@ -1,14 +1,14 @@
-#### Wrestling
+#### Monk
 
-Wrestlers learn holds, throws, leverage, and how to keep fighting when weapons are lost. Their training is brutal, practical, and strongest in cramped fights.
+Monks train body and spirit through repetition, restraint, and endurance. They learn to fight with minimal equipment and to keep focus under pain, hunger, and fear.
 
-Available to: Berserker
+Available to: Cleric
 
-Source: `Apprenticeships!A6:AO6`.
+Source: `Apprenticeships!A7:AO7`.
 
 ##### Special Ability
 
-A Wrestler may use Strength or Constitution for an unarmed grapple. On a successful grapple, the target is held in place until it wins a physical maneuver or the Wrestler releases it.
+Once per rest period, a Monk may ignore the first -5 penalty from fatigue, hunger, pain, or distraction for one scene.
 
 ##### Development Package
 
@@ -18,7 +18,7 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Primary Melee | Primary Missile | Secondary Melee | Secondary Missile | Tertiary Melee | Tertiary Missile |
 | --- | --- | --- | --- | --- | --- |
-| 3 | 0 | 2 | 0 | 0 | 0 |
+| 3 | 1 | 1 | 1 | 0 | 0 |
 
 ###### Armor
 
@@ -30,7 +30,7 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Sprint | Run | Swim | Climb | Body General |
 | --- | --- | --- | --- | --- |
-| 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 1 |
 
 ###### Mental Abilities
 
@@ -42,13 +42,13 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Stealing | Tracking | Hiding | Balancing | Mixed General |
 | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 2 | 1 |
+| 0 | 0 | 0 | 1 | 1 |
 
 ###### Special Skills
 
 | Perception | Body Development |
 | --- | --- |
-| 0 | 4 |
+| 3 | 2 |
 
 ###### Spell List Skills
 

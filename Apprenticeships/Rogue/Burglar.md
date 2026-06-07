@@ -1,14 +1,14 @@
-#### Wrestling
+#### Burglar
 
-Wrestlers learn holds, throws, leverage, and how to keep fighting when weapons are lost. Their training is brutal, practical, and strongest in cramped fights.
+Burglars specialize in entering places where they are not wanted and leaving with proof, coin, or secrets. Their craft favors patience, tools, quiet movement, and escape routes.
 
-Available to: Berserker
+Available to: Rogue
 
-Source: `Apprenticeships!A6:AO6`.
+Source: `Apprenticeships!A17:AO17`.
 
 ##### Special Ability
 
-A Wrestler may use Strength or Constitution for an unarmed grapple. On a successful grapple, the target is held in place until it wins a physical maneuver or the Wrestler releases it.
+Once per scene, a Burglar may reroll a failed Locks, Traps, or Hiding roll, but must keep the second result.
 
 ##### Development Package
 
@@ -18,7 +18,7 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Primary Melee | Primary Missile | Secondary Melee | Secondary Missile | Tertiary Melee | Tertiary Missile |
 | --- | --- | --- | --- | --- | --- |
-| 3 | 0 | 2 | 0 | 0 | 0 |
+| 1 | 1 | 0 | 0 | 0 | 0 |
 
 ###### Armor
 
@@ -30,25 +30,25 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Sprint | Run | Swim | Climb | Body General |
 | --- | --- | --- | --- | --- |
-| 1 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
 
 ###### Mental Abilities
 
 | Traps | Locks | Persuasion | Item Lore | Read Runes | Use Item | Brain General |
 | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 1 | 1 | 0 | 1 | 0 | 0 | 1 |
 
 ###### Mixed Abilities
 
 | Stealing | Tracking | Hiding | Balancing | Mixed General |
 | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 2 | 1 |
+| 2 | 0 | 1 | 2 | 1 |
 
 ###### Special Skills
 
 | Perception | Body Development |
 | --- | --- |
-| 0 | 4 |
+| 2 | 1 |
 
 ###### Spell List Skills
 

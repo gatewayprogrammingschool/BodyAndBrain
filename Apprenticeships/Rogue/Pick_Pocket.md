@@ -1,14 +1,14 @@
-#### Wrestling
+#### Pick Pocket
 
-Wrestlers learn holds, throws, leverage, and how to keep fighting when weapons are lost. Their training is brutal, practical, and strongest in cramped fights.
+Pick Pockets train touch, timing, misdirection, and crowd movement. They are most dangerous when everyone is looking somewhere else.
 
-Available to: Berserker
+Available to: Rogue
 
-Source: `Apprenticeships!A6:AO6`.
+Source: `Apprenticeships!A18:AO18`.
 
 ##### Special Ability
 
-A Wrestler may use Strength or Constitution for an unarmed grapple. On a successful grapple, the target is held in place until it wins a physical maneuver or the Wrestler releases it.
+When a target is distracted, jostled, entertained, or in a crowd, a Pick Pocket gains +5 to Stealing and may hide a small lifted object immediately on a success.
 
 ##### Development Package
 
@@ -18,37 +18,37 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Primary Melee | Primary Missile | Secondary Melee | Secondary Missile | Tertiary Melee | Tertiary Missile |
 | --- | --- | --- | --- | --- | --- |
-| 3 | 0 | 2 | 0 | 0 | 0 |
+| 2 | 1 | 1 | 0 | 0 | 0 |
 
 ###### Armor
 
 | No Armor | Robes | Soft Leather | Rigid Leather | Chain | Plate | Helm | Shield |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ###### Physical Skills
 
 | Sprint | Run | Swim | Climb | Body General |
 | --- | --- | --- | --- | --- |
-| 1 | 1 | 1 | 1 | 1 |
+| 2 | 0 | 1 | 1 | 0 |
 
 ###### Mental Abilities
 
 | Traps | Locks | Persuasion | Item Lore | Read Runes | Use Item | Brain General |
 | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ###### Mixed Abilities
 
 | Stealing | Tracking | Hiding | Balancing | Mixed General |
 | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 2 | 1 |
+| 2 | 0 | 1 | 0 | 1 |
 
 ###### Special Skills
 
 | Perception | Body Development |
 | --- | --- |
-| 0 | 4 |
+| 2 | 1 |
 
 ###### Spell List Skills
 

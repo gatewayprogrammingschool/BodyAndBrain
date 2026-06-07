@@ -1,14 +1,14 @@
-#### Wrestling
+#### Necromancy
 
-Wrestlers learn holds, throws, leverage, and how to keep fighting when weapons are lost. Their training is brutal, practical, and strongest in cramped fights.
+Necromancers study death, remains, spirits, and the border between memory and animation. Their training is feared, but it gives them rare insight into curses, undead, and lingering harm.
 
-Available to: Berserker
+Available to: Conjuror
 
-Source: `Apprenticeships!A6:AO6`.
+Source: `Apprenticeships!A11:AO11`.
 
 ##### Special Ability
 
-A Wrestler may use Strength or Constitution for an unarmed grapple. On a successful grapple, the target is held in place until it wins a physical maneuver or the Wrestler releases it.
+A Necromancy apprentice gains +5 to Wizardry, Conjuring, or Item Lore rolls made to identify undead, curses, corpses, burial magic, or death-related spell effects.
 
 ##### Development Package
 
@@ -18,40 +18,40 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Primary Melee | Primary Missile | Secondary Melee | Secondary Missile | Tertiary Melee | Tertiary Missile |
 | --- | --- | --- | --- | --- | --- |
-| 3 | 0 | 2 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 | 0 |
 
 ###### Armor
 
 | No Armor | Robes | Soft Leather | Rigid Leather | Chain | Plate | Helm | Shield |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ###### Physical Skills
 
 | Sprint | Run | Swim | Climb | Body General |
 | --- | --- | --- | --- | --- |
-| 1 | 1 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 1 |
 
 ###### Mental Abilities
 
 | Traps | Locks | Persuasion | Item Lore | Read Runes | Use Item | Brain General |
 | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 0 | 0 | 2 | 0 | 1 | 1 | 1 |
 
 ###### Mixed Abilities
 
 | Stealing | Tracking | Hiding | Balancing | Mixed General |
 | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 2 | 1 |
+| 0 | 0 | 1 | 0 | 1 |
 
 ###### Special Skills
 
 | Perception | Body Development |
 | --- | --- |
-| 0 | 4 |
+| 2 | 1 |
 
 ###### Spell List Skills
 
 | Enchantment | Conjuring | Prayers | Naturalist | Leadership | Songs |
 | --- | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 3 | 0 | 0 | 0 | 0 |

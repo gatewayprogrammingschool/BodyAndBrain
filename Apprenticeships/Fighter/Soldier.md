@@ -1,14 +1,14 @@
-#### Wrestling
+#### Soldier
 
-Wrestlers learn holds, throws, leverage, and how to keep fighting when weapons are lost. Their training is brutal, practical, and strongest in cramped fights.
+Soldiers learn formation, discipline, guard duty, and battlefield routine. They are trained to keep order while frightened, wounded, tired, or outnumbered.
 
-Available to: Berserker
+Available to: Fighter
 
-Source: `Apprenticeships!A6:AO6`.
+Source: `Apprenticeships!A12:AO12`.
 
 ##### Special Ability
 
-A Wrestler may use Strength or Constitution for an unarmed grapple. On a successful grapple, the target is held in place until it wins a physical maneuver or the Wrestler releases it.
+When fighting adjacent to an ally, a Soldier may grant either themselves or that ally +5 to one attack or defense roll per round, chosen before the roll.
 
 ##### Development Package
 
@@ -18,37 +18,37 @@ A level 1 adolescent apprentice begins with the following baseline skill levels.
 
 | Primary Melee | Primary Missile | Secondary Melee | Secondary Missile | Tertiary Melee | Tertiary Missile |
 | --- | --- | --- | --- | --- | --- |
-| 3 | 0 | 2 | 0 | 0 | 0 |
+| 4 | 3 | 3 | 0 | 0 | 0 |
 
 ###### Armor
 
 | No Armor | Robes | Soft Leather | Rigid Leather | Chain | Plate | Helm | Shield |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 1 | 2 | 0 | 1 | 0 |
 
 ###### Physical Skills
 
 | Sprint | Run | Swim | Climb | Body General |
 | --- | --- | --- | --- | --- |
-| 1 | 1 | 1 | 1 | 1 |
+| 0 | 0 | 0 | 0 | 1 |
 
 ###### Mental Abilities
 
 | Traps | Locks | Persuasion | Item Lore | Read Runes | Use Item | Brain General |
 | --- | --- | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ###### Mixed Abilities
 
 | Stealing | Tracking | Hiding | Balancing | Mixed General |
 | --- | --- | --- | --- | --- |
-| 0 | 0 | 0 | 2 | 1 |
+| 0 | 0 | 0 | 0 | 0 |
 
 ###### Special Skills
 
 | Perception | Body Development |
 | --- | --- |
-| 0 | 4 |
+| 1 | 2 |
 
 ###### Spell List Skills
 

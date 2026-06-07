@@ -1,8 +1,7 @@
-
 ### Fighter Apprenticeships
 
-```note
-Note:
-We need some good text on being a Fighter and how the apprenticeships shape the character.
+Fighter apprenticeships describe the practical martial environment that shaped the character. Each path teaches discipline under pressure and gives the Fighter a clear role in organized violence.
 
-```
+!include(Soldier.md)
+
+!include(Squire.md)

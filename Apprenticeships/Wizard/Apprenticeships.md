@@ -1,8 +1,7 @@
-
 ### Wizard Apprenticeships
 
-```note
-Note:
-We need some good text on being a Wizard and how the apprenticeships shape the character.
+Wizard apprenticeships describe the formal or experimental study that made the character a spellcaster. Each path shows what kind of knowledge the Wizard trusts most when reality becomes negotiable.
 
-```
+!include(Alchemy.md)
+
+!include(Scholarship.md)

@@ -1,8 +1,7 @@
-
 ### Conjuror Apprenticeships
 
-```note
-Note:
-We need some good text on being a Conjuror and how the apprenticeships shape the character.
+Conjuror apprenticeships define how the caster first learned to bargain with forces outside the ordinary world. Each path changes the Conjuror's preferred answer to threats, whether deception, spirits, or summoned allies.
 
-```
+!include(Illusions.md)
+
+!include(Necromancy.md)

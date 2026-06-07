@@ -96,6 +96,40 @@ pre code {
 	font-size: 10pt;
 }
 
+pre.gap,
+pre.sheet-bug,
+pre.sourceCode.gap {
+	border-left: 4px solid #d7af72;
+	background: rgba(0,0,0,0.45);
+}
+
+pre.gap,
+pre.gap code,
+pre.gap code span,
+pre.sourceCode.gap,
+pre.sourceCode.gap code,
+pre.sourceCode.gap code span,
+code.sourceCode.gap,
+code.sourceCode.gap span {
+	color: #fff4c2;
+}
+
+pre.sheet-bug,
+pre.sheet-bug code,
+pre.sheet-bug code span,
+pre.sourceCode.sheet-bug,
+pre.sourceCode.sheet-bug code,
+pre.sourceCode.sheet-bug code span,
+code.sourceCode.sheet-bug,
+code.sourceCode.sheet-bug span {
+	color: #ffd6d6;
+}
+
+pre.sheet-bug,
+pre.sourceCode.sheet-bug {
+	border-left-color: #d66;
+}
+
 .thumb { 
     float:left;
     margin: 10px;

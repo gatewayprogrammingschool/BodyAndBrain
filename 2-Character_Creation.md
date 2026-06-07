@@ -3,9 +3,21 @@
 
 _____
 
+<!-- WORKBOOK-GENERATED:DICE-NOTATION:START -->
+
+### Dice Notation
+
+#### D10
+
+A D10 is a ten-sided die that returns a result from 1 to 10. When a rule calls for multiple dice, roll each die and add the results. For example, `2D10` means roll two ten-sided dice and add them together.
+
+Percentile-style rolls in Body and Brain are written as `D100` or described as a roll with a natural 1 or natural 100. Use a die labeled 1 to 100, or roll two D10s as tens and ones.
+
+<!-- WORKBOOK-GENERATED:DICE-NOTATION:END -->
+
 ### Stats
 
-The first step in generating a Body and Brain character is to make fourteen [D10](#D10) rolls, throw out the low and the high rolls, and sum the remaining rolls, giving you the player stat pool. Next, add the player stat pool to 400 to get your total stat pool. You may only have one stat of 100, one stat of 99, and two stats between 95 to 98. The rest of the stat pool may be allocated freely for stats of 94 and lower. A character may not earn more than 14 skill points per level for either the Body or Brain groups.
+The first step in generating a Body and Brain character is to make fourteen [D10](#d10) rolls, throw out the low and the high rolls, and sum the remaining rolls, giving you the player stat pool. Next, add the player stat pool to 400 to get your total stat pool. You may only have one stat of 100, one stat of 99, and two stats between 95 to 98. The rest of the stat pool may be allocated freely for stats of 94 and lower. A character may not earn more than 14 skill points per level for either the Body or Brain groups.
 
 #### Selecting a [Profession](#professions)
 
@@ -19,7 +31,7 @@ and the Brain Stats:
 
 * [Intelligence](#Intelligence)
 * [Presence](#Presence)
-* [Piety](#Piety)  
+* [Piety](#Piety)
 
 ###### Table 1-1
 
@@ -30,7 +42,7 @@ and the Brain Stats:
 |Constitution|[Fighter](#Fighter)
 |Strength|[Berserker](#Berserker)
 |Piety|[Paladin](#Paladin)
-|Agility|[Thief](#Thief)
+|Agility|[Rogue](#Rogue)
 |Intelligence|[Wizard](#Wizard)
 |Intelligence|[Conjuror](#Conjuror)
 |Piety|[Cleric](#Cleric)
@@ -44,13 +56,13 @@ The next step is to pick a Race from the Races available for your chosen profess
 |[Human](#Human)|[Half-Elf](#Half-Elf)|[Elf](#Elf)|[Dwarf](#Dwarf)|[Halfling](#Halfling)|[Reptilian](#Reptilian)|[Orc](#Orc)|[Feline](#Feline)
 |:--|:--|:--|:--|:--|:--|:--|:--
 |Bard|Bard|Bard|Berserker|Bard|Berserker|Fighter|Bard
-|Berserker|Conjurer|Conjurer|Cleric|Cleric|Cleric|Berserker|Conjurer
-|Cleric|Fighter|Ranger|Conjurer|Conjurer|Conjurer|Cleric|Ranger
-|Conjurer|Ranger|Thief|Fighter|Ranger|Fighter||Thief
-|Fighter|Thief|Wizard|Paladin|Thief|Paladin||Wizard
+|Berserker|Conjuror|Conjuror|Cleric|Cleric|Cleric|Berserker|Conjuror
+|Cleric|Fighter|Ranger|Conjuror|Conjuror|Conjuror|Cleric|Ranger
+|Conjuror|Ranger|Rogue|Fighter|Ranger|Fighter||Rogue
+|Fighter|Rogue|Wizard|Paladin|Rogue|Paladin||Wizard
 |Paladin|Wizard||Wizard|Wizard|Wizard||
 |Ranger|||||||
-|Thief|||||||
+|Rogue|||||||
 |Wizard|||||||
 
 ###### Table 1-3
@@ -127,6 +139,14 @@ Developing weapon skills is performed by allocating skill points to skill levels
 |Agility|Secondary Missile|3/7|4|5|2/5|6|6|10|20|12
 |Strength|Tertiary Melee|7|4|7|10|11|12|20|40|10
 |Agility|Tertiary Missile|7|9|10|4|11|14|20|40|20
+
+<!-- WORKBOOK-GENERATED:WEAPON-TRAINING-TERMS:START -->
+
+#### Primary Melee
+
+Primary Melee is the character's first and most efficient melee training category. If a race specifies a natural or required weapon for Primary Melee, that weapon occupies the Primary Melee slot. Feline claws are the Feline Primary Melee weapon, and they use Agility instead of Strength.
+
+<!-- WORKBOOK-GENERATED:WEAPON-TRAINING-TERMS:END -->
 
 #### Armor Skills
 
@@ -225,6 +245,167 @@ Physical Skills encompass actions that be taken by a character that primarily de
 |9|33
 |10|34
 
+<!-- WORKBOOK-GENERATED:STARTING-SKILLS:START -->
+
+### Starting Skill Packages
+
+BodyAndBrain.xlsm defines the baseline skill levels granted by each profession before current-level spending is applied.
+
+#### Primary Weapons
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Strength | Melee | 2 | 2 | 2 | 1 | 1 | 1 | 1 | 2 | 2 |
+| Agility | Missile | 2 | 1 | 2 | 2 | 1 | 1 | 0 | 0 | 1 |
+
+#### Secondary Weapons
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Strength | Melee | 1 | 2 | 1 | 0 | 0 | 1 | 0 | 0 | 2 |
+| Agility | Missile | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+
+#### Tertiary Weapons
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Strength | Melee | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Agility | Missile | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+#### Other
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Presence | Perception | 1 | 0 | 1 | 2 | 2 | 1 | 2 | 1 | 1 |
+| Constitution | Body Development | 2 | 3 | 2 | 1 | 1 | 1 | 1 | 1 | 2 |
+
+#### Physical Activities
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Agility | Sprinting | 1 | 2 | 1 | 2 | 2 | 1 | 1 | 1 | 1 |
+| Constitution | Running | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 1 | 1 |
+| Agility | Swimming | 1 | 0 | 1 | 2 | 1 | 1 | 0 | 1 | 0 |
+| Strength | Climbing | 1 | 1 | 1 | 2 | 2 | 1 | 0 | 1 | 0 |
+| Body | General | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+#### Mental Activities
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Presence | Traps | 0 | 0 | 0 | 1 | 2 | 1 | 0 | 0 | 0 |
+| Intelligence | Locks | 0 | 0 | 0 | 0 | 2 | 1 | 0 | 0 | 0 |
+| Presence/Piety | Persuasion | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 2 |
+| Intelligence | Item Lore | 0 | 0 | 0 | 0 | 2 | 1 | 1 | 1 | 1 |
+| Mind | General | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+#### Mixed Activities
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Agility/Presence | Stealing | 0 | 0 | - | 0 | 2 | 1 | 0 | 0 | - |
+| Agility/Intelligence | Tracking | 0 | 0 | 0 | 2 | 0 | 1 | 0 | 0 | 0 |
+| Constitution/Presence | Hiding | 1 | 0 | 0 | 2 | 2 | 1 | 1 | 1 | 0 |
+| Agility/Presence | Balancing | 1 | 1 | 1 | 2 | 1 | 1 | 1 | 1 | 1 |
+| Mind/Body | General | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+#### Armor
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Agility | None/Light Clothing | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Agility | Heavy Clothing/Robes | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Agility/Strength | Soft Leather | 1 | 1 | 1 | 1 | 1 | 1 | - | 0 | 1 |
+| Agility/Constitution | Rigid Leather | 1 | 1 | 1 | 0 | 1 | 1 | - | - | 1 |
+| Strength | Chain | 1 | 0 | 1 | - | - | 0 | - | - | 0 |
+| Strength/Constitution | Plate | 0 | - | 0 | - | - | - | - | - | 0 |
+| Strength | Helm | 1 | 1 | 0 | - | - | - | - | - | - |
+| Strength | Shield | 1 | - | 1 | - | - | 0 | - | - | 1 |
+
+#### Arcane
+
+| Stat | Skill | Fighter | Berserker | Paladin | Ranger | Rogue | Bard | Wizard | Conjuror | Cleric |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Intelligence | Read Runes | 0 | - | 0 | 0 | 3 | 2 | 1 | 2 | 2 |
+| Presence | Use Item | 0 | 0 | 0 | 1 | 3 | 1 | 2 | 1 | 2 |
+| Intelligence | Enchantment | 0 | - | - | 0 | 0 | 0 | 2 | 1 | - |
+| Presence | Conjuring | 0 | - | - | 0 | 0 | 0 | 1 | 2 | - |
+| Piety | Prayer | 0 | 0 | 0 | 0 | - | 0 | - | - | 3 |
+| Piety | Leadership | - | - | 1 | - | - | - | - | - | - |
+| Intelligence | Naturalist | - | - | - | 1 | - | - | - | - | - |
+| Presence | Songs | - | - | - | - | - | 1 | - | - | - |
+
+<!-- WORKBOOK-GENERATED:STARTING-SKILLS:END -->
+
+<!-- WORKBOOK-GENERATED:CHARACTER-SHEET-CALCULATIONS:START -->
+
+### Character Sheet Calculations
+
+These rules are inferred from the visible labels and canonical worksheet tables in BodyAndBrain.xlsm.
+
+Labels and visible canonical worksheet tables are treated as design intent. Formula, hidden-cell, or VBA variances are spreadsheet bugs and are not published as alternate rules.
+
+| Calculation | Rule |
+| --- | --- |
+| Total stat pool | Rolled total + 400 |
+| Available stat pool | Total stat pool minus assigned Strength, Agility, Constitution, Intelligence, Presence, and Piety values |
+| Stat bonus | Base stat bonus plus racial stat bonus |
+| Body bonus | Average of Strength, Agility, and Constitution total bonuses |
+| Brain bonus | Average of Intelligence, Presence, and Piety total bonuses |
+| Body skill points | Sum of Strength, Agility, and Constitution skill point values |
+| Brain skill points | Sum of Intelligence, Presence, and Piety skill point values |
+| Earned skill points | Current level multiplied by Body skill points plus Brain skill points |
+| Resistance bonus | Base stat bonus plus race resistance bonus for the affliction |
+| Skill level | This Level plus Base Line |
+| Skill-level bonus | Skill level mapped through the Skill Level Bonus table |
+| Skill bonus | Skill-level bonus plus governing stat bonus plus other modifiers |
+| Slash-separated skill cost | `1/3/7` means first current-level increase costs 1, second costs 3, third costs 7, then no further increase is available from that cost string |
+
+<!-- WORKBOOK-GENERATED:CHARACTER-SHEET-CALCULATIONS:END -->
+
+<!-- WORKBOOK-GENERATED:RESISTANCE-ROLLS:START -->
+
+### Resistance Rolls
+
+Resistance rolls use the resistance bonus from the character sheet.
+
+| Resistance | Governing Stat | Resistance Bonus |
+| --- | --- | --- |
+| Poison | Strength | Strength base bonus + racial Poison modifier |
+| Disease | Constitution | Constitution base bonus + racial Disease modifier |
+| Wizardry | Intelligence | Intelligence base bonus + racial Wizardry modifier |
+| Conjuring | Presence | Presence base bonus + racial Conjuring modifier |
+| Curses | Piety | Piety base bonus + racial Curses modifier |
+
+Unless a spell or effect gives a different target number, roll `D100 + resistance bonus` and apply the following outcome.
+
+| Roll + Bonus | Outcome |
+| --- | --- |
+| 1 (Natural) | Fumble: full effect, plus a GM complication |
+| 2 to 25 | Failure: full effect |
+| 26 to 49 | Partial Failure: full effect, but halve duration or recurring damage |
+| 50 to 74 | Partial Success: halve immediate damage or reduce the condition by one step |
+| 75 + | Success: resist the ongoing effect |
+| 100 (Natural) | Astounding Success: resist the effect and gain +5 on the next resistance roll against the same source |
+
+#### Poison
+
+Poison is resisted with Strength. A poison effect should define its immediate damage, recurring damage, interval, and duration. If a poison lacks those details, use `1D4` damage per round for `1D4` rounds. A successful Poison resistance roll prevents the recurring effect; a partial result reduces the recurring damage or duration as described in [Resistance Rolls](#resistance-rolls). The Stop Poison spell ends active poison damage over time.
+
+#### Disease
+
+Disease is resisted with Constitution. Disease effects should define symptoms, interval, and recovery conditions. If a disease lacks those details, it imposes `-5` on Body activities after the first failed resistance roll and requires another Disease resistance roll after each rest period to recover. A successful Disease resistance roll prevents the disease from taking hold; a partial result delays the penalty until the next interval. The Stop Disease spell ends active disease effects.
+
+#### Wizardry
+
+Wizardry is resisted with Intelligence. Use Wizardry resistance against hostile effects from the Wizardry spell discipline when the spell changes the target's body, mind, location, or condition rather than simply making an attack roll. Direct damage still uses the spell attack rules first; Wizardry resistance applies only if the spell or GM calls for resisting the effect.
+
+#### Conjuring
+
+Conjuring is resisted with Presence. Use Conjuring resistance against hostile summoned, destructive, spirit, or energy effects from the Conjuring spell discipline when the spell imposes an ongoing condition or contests control. Direct damage still uses the spell attack rules first; Conjuring resistance applies only if the spell or GM calls for resisting the effect.
+
+<!-- WORKBOOK-GENERATED:RESISTANCE-ROLLS:END -->
+
 ### Character Stats
 
 Body and Brain uses six basic stats that describe a characters attributes that affect gameplay.
@@ -239,7 +420,7 @@ Strength is the ability to apply physical force to an object.  Doing things like
 
 ##### Agility
 
-Agility is the ability to control your body.  Whether it's fine motor control picking locks, or aiming a bow, Agility allows the character to do these things effortlessly. [Thieves](#Thief) use their Agility in nearly all things they do.
+Agility is the ability to control your body.  Whether it's fine motor control picking locks, or aiming a bow, Agility allows the character to do these things effortlessly. [Rogues](#Rogue) use their Agility in nearly all things they do.
 
 ##### Constitution
 
@@ -251,7 +432,7 @@ There are three stats that define the Brain category: [Intelligence](#Intelligen
 
 ##### Intelligence
 
-Intelligence is the measure of a character's ability to gain and retain knowledge, and then recall that knowledge and apply it to an action such as casting a spell or reading a scroll during combat.  Of all the classes, [Wizards](#Wizard) and [Sorcerors](#Sorceror) are the most dependent on Intelligence.
+Intelligence is the measure of a character's ability to gain and retain knowledge, and then recall that knowledge and apply it to an action such as casting a spell or reading a scroll during combat.  Of all the classes, [Wizards](#Wizard) and [Conjurors](#Conjuror) are the most dependent on Intelligence.
 
 ##### Presence
 
@@ -259,4 +440,4 @@ Presence is both the character's ability to perceive the world around him and to
 
 ##### Piety
 
-Piety is the connection that a character has to his patron Gods.  [Clerics](#Cleric) and [Paladins](#Paladin) draw upon this Piety to curry favor that is called upon to support the party through healing and calm, as well as to be especially fierce when fighting the [Undead](#Undead).
+Piety is the connection that a character has to his patron Gods.  [Clerics](#Cleric) and [Paladins](#Paladin) draw upon this Piety to curry favor that is called upon to support the party through healing and calm, as well as to be especially fierce when fighting the [Undead](#undead).

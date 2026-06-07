@@ -1,13 +1,8 @@
-
 ### Bard Apprenticeships
 
-```note
-Note:
-We need some good text on being a Bard and how the apprenticeships shape the character.
+Bard apprenticeships describe the public craft that taught the Bard how to move people before adventuring began. Each path gives the Bard a different way to shape a scene without relying only on spell song.
 
-```
-
-!include(Acting.md)
+!include(Actor.md)
 
 !include(Fencing.md)
 

@@ -9,6 +9,6 @@ Players of BaB benefit from a simple character sheet requiring little math to se
 
 Creating game modules for BaB is a breeze due to simplified NPC selection and customization. Terrain effects are standardized for physical attack and maneuvers.
 
-```todo
-TODO: Let's add some more here!
+```gap
+GAP: BodyAndBrain.xlsm does not provide additional overview prose. Expand the setting/system overview manually.
 ```
